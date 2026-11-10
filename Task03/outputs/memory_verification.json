@@ -1,0 +1,30 @@
+{
+  "source": "Task03/memory.cpp",
+  "sha256": "3d2a3534b4d067e7da00527fb6562c6e5d3ba0e47bc045bfd10d5ad9b02bbeb2",
+  "timestamp_utc": "2026-11-10T15:36:32.785711+00:00",
+  "optimization": "-O0",
+  "compile_command": [
+    "C:\\Projects\\SLOT B\\.tools\\mingw64\\bin\\g++.exe",
+    "-std=c++17",
+    "-Wall",
+    "-Wextra",
+    "-Wpedantic",
+    "-O0",
+    "C:\\Projects\\SLOT B\\DSA0110_SLOT-B-192471019-Assignment-3\\Task03\\memory.cpp",
+    "-o",
+    "C:\\Projects\\SLOT B\\DSA0110_SLOT-B-192471019-Assignment-3\\build\\Task03\\memory.exe"
+  ],
+  "compile_exit": 0,
+  "expected_diagnostic": null,
+  "compile_only": false,
+  "test_count": 9,
+  "headers_sha256": {
+    "Task03/auditorium.hpp": "68e164a0da252612c043f0ac894579d2cec6d7dd9bb79788c099d002239eadeb"
+  },
+  "run_command": [
+    "C:\\Projects\\SLOT B\\DSA0110_SLOT-B-192471019-Assignment-3\\build\\Task03\\memory.exe",
+    "--tests"
+  ],
+  "run_exit": 0,
+  "status": "PASS"
+}

@@ -1,0 +1,10 @@
+Open Main (2x3)
+Current occupied seats=1
+Open Nested (1x2)
+Close Nested: occupied=1, bookings=1, cancellations=0
+Open Heap (1x1)
+Close Heap: occupied=1, bookings=1, cancellations=0
+Open Zero (0x5)
+Close Zero: occupied=0, bookings=0, cancellations=0
+Leaving main scope
+Close Main: occupied=1, bookings=2, cancellations=1

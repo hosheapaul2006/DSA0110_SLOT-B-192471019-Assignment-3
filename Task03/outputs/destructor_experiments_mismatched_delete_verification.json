@@ -1,0 +1,23 @@
+{
+  "source": "Task03/destructor_experiments/mismatched_delete.cpp",
+  "sha256": "9d80a5f79f322105b5af75c90dab1d55292cefffbf7dfd37f83790a71400b2a9",
+  "timestamp_utc": "2026-11-10T15:35:31.493940+00:00",
+  "optimization": "-O0",
+  "compile_command": [
+    "C:\\Projects\\SLOT B\\.tools\\mingw64\\bin\\g++.exe",
+    "-std=c++17",
+    "-Wall",
+    "-Wextra",
+    "-Wpedantic",
+    "-O0",
+    "C:\\Projects\\SLOT B\\DSA0110_SLOT-B-192471019-Assignment-3\\Task03\\destructor_experiments\\mismatched_delete.cpp",
+    "-o",
+    "C:\\Projects\\SLOT B\\DSA0110_SLOT-B-192471019-Assignment-3\\build\\Task03\\destructor_experiments_mismatched_delete.exe"
+  ],
+  "compile_exit": 0,
+  "expected_diagnostic": "warning",
+  "compile_only": true,
+  "test_count": 1,
+  "headers_sha256": {},
+  "status": "PASS: compiled only; execution reserved for isolated sanitizer test"
+}

@@ -1,0 +1,4 @@
+rows,seats,payload_bytes,row_pointer_bytes,allocation_calls,process_resident_bytes
+10,20,200,80,11,5066752
+100,200,20000,800,101,5087232
+1000,2000,2000000,8000,1001,7294976

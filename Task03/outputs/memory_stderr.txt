@@ -1,0 +1,10 @@
+CHECK|requested seat payload bytes|PASS
+CHECK|pointer storage and allocation count|PASS
+CHECK|all allocated seat cells touched|PASS
+CHECK|requested seat payload bytes|PASS
+CHECK|pointer storage and allocation count|PASS
+CHECK|all allocated seat cells touched|PASS
+CHECK|requested seat payload bytes|PASS
+CHECK|pointer storage and allocation count|PASS
+CHECK|all allocated seat cells touched|PASS
+TEST_COUNT 9

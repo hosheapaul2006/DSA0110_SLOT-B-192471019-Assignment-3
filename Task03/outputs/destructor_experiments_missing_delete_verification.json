@@ -1,0 +1,23 @@
+{
+  "source": "Task03/destructor_experiments/missing_delete.cpp",
+  "sha256": "bedf001634005d0e21469e392b763ab37070dee8b64e93b9946f498233bd3e00",
+  "timestamp_utc": "2026-11-10T15:35:51.835943+00:00",
+  "optimization": "-O0",
+  "compile_command": [
+    "C:\\Projects\\SLOT B\\.tools\\mingw64\\bin\\g++.exe",
+    "-std=c++17",
+    "-Wall",
+    "-Wextra",
+    "-Wpedantic",
+    "-O0",
+    "C:\\Projects\\SLOT B\\DSA0110_SLOT-B-192471019-Assignment-3\\Task03\\destructor_experiments\\missing_delete.cpp",
+    "-o",
+    "C:\\Projects\\SLOT B\\DSA0110_SLOT-B-192471019-Assignment-3\\build\\Task03\\destructor_experiments_missing_delete.exe"
+  ],
+  "compile_exit": 0,
+  "expected_diagnostic": null,
+  "compile_only": true,
+  "test_count": 0,
+  "headers_sha256": {},
+  "status": "PASS: compiled only; execution reserved for isolated sanitizer test"
+}
