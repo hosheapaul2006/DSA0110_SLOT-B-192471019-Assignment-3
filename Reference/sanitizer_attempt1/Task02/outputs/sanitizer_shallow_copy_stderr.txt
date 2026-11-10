@@ -1,0 +1,59 @@
+=================================================================
+==2211==ERROR: AddressSanitizer: heap-use-after-free on address 0x507000000090 at pc 0x55d5ffaefd15 bp 0x7ffcba2edfe0 sp 0x7ffcba2edfd0
+READ of size 8 at 0x507000000090 thread T0
+    #0 0x55d5ffaefd14 in Prescription::~Prescription() /home/runner/work/DSA0110_SLOT-B-192471019-Assignment-3/DSA0110_SLOT-B-192471019-Assignment-3/Task02/shallow_copy.cpp:9
+    #1 0x55d5ffaefb08 in main /home/runner/work/DSA0110_SLOT-B-192471019-Assignment-3/DSA0110_SLOT-B-192471019-Assignment-3/Task02/shallow_copy.cpp:20
+    #2 0x7f8b9962a1c9  (/lib/x86_64-linux-gnu/libc.so.6+0x2a1c9) (BuildId: a4a7992a8e66555c8141ab2a08a8465ff6e0ea65)
+    #3 0x7f8b9962a28a in __libc_start_main (/lib/x86_64-linux-gnu/libc.so.6+0x2a28a) (BuildId: a4a7992a8e66555c8141ab2a08a8465ff6e0ea65)
+    #4 0x55d5ffaef404 in _start (/home/runner/work/DSA0110_SLOT-B-192471019-Assignment-3/DSA0110_SLOT-B-192471019-Assignment-3/build/sanitizer/Task02_shallow_copy+0x2404) (BuildId: ce5ebd4c8080bccbff0de56f41112952106dd30c)
+
+0x507000000090 is located 0 bytes inside of 72-byte region [0x507000000090,0x5070000000d8)
+freed by thread T0 here:
+    #0 0x7f8b99eff738 in operator delete[](void*, unsigned long) ../../../../src/libsanitizer/asan/asan_new_delete.cpp:167
+    #1 0x55d5ffaefdc2 in Prescription::~Prescription() /home/runner/work/DSA0110_SLOT-B-192471019-Assignment-3/DSA0110_SLOT-B-192471019-Assignment-3/Task02/shallow_copy.cpp:9
+    #2 0x55d5ffaefafc in main /home/runner/work/DSA0110_SLOT-B-192471019-Assignment-3/DSA0110_SLOT-B-192471019-Assignment-3/Task02/shallow_copy.cpp:20
+    #3 0x7f8b9962a1c9  (/lib/x86_64-linux-gnu/libc.so.6+0x2a1c9) (BuildId: a4a7992a8e66555c8141ab2a08a8465ff6e0ea65)
+    #4 0x7f8b9962a28a in __libc_start_main (/lib/x86_64-linux-gnu/libc.so.6+0x2a28a) (BuildId: a4a7992a8e66555c8141ab2a08a8465ff6e0ea65)
+    #5 0x55d5ffaef404 in _start (/home/runner/work/DSA0110_SLOT-B-192471019-Assignment-3/DSA0110_SLOT-B-192471019-Assignment-3/build/sanitizer/Task02_shallow_copy+0x2404) (BuildId: ce5ebd4c8080bccbff0de56f41112952106dd30c)
+
+previously allocated by thread T0 here:
+    #0 0x7f8b99efe6c8 in operator new[](unsigned long) ../../../../src/libsanitizer/asan/asan_new_delete.cpp:98
+    #1 0x55d5ffaef5b8 in Prescription::Prescription(int) /home/runner/work/DSA0110_SLOT-B-192471019-Assignment-3/DSA0110_SLOT-B-192471019-Assignment-3/Task02/shallow_copy.cpp:8
+    #2 0x55d5ffaef5b8 in main /home/runner/work/DSA0110_SLOT-B-192471019-Assignment-3/DSA0110_SLOT-B-192471019-Assignment-3/Task02/shallow_copy.cpp:15
+    #3 0x7f8b9962a1c9  (/lib/x86_64-linux-gnu/libc.so.6+0x2a1c9) (BuildId: a4a7992a8e66555c8141ab2a08a8465ff6e0ea65)
+    #4 0x7f8b9962a28a in __libc_start_main (/lib/x86_64-linux-gnu/libc.so.6+0x2a28a) (BuildId: a4a7992a8e66555c8141ab2a08a8465ff6e0ea65)
+    #5 0x55d5ffaef404 in _start (/home/runner/work/DSA0110_SLOT-B-192471019-Assignment-3/DSA0110_SLOT-B-192471019-Assignment-3/build/sanitizer/Task02_shallow_copy+0x2404) (BuildId: ce5ebd4c8080bccbff0de56f41112952106dd30c)
+
+SUMMARY: AddressSanitizer: heap-use-after-free /home/runner/work/DSA0110_SLOT-B-192471019-Assignment-3/DSA0110_SLOT-B-192471019-Assignment-3/Task02/shallow_copy.cpp:9 in Prescription::~Prescription()
+Shadow bytes around the buggy address:
+  0x506ffffffe00: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+  0x506ffffffe80: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+  0x506fffffff00: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+  0x506fffffff80: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+  0x507000000000: fa fa fa fa 00 00 00 00 00 00 00 00 04 fa fa fa
+=>0x507000000080: fa fa[fd]fd fd fd fd fd fd fd fd fa fa fa fa fa
+  0x507000000100: fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa
+  0x507000000180: fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa
+  0x507000000200: fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa
+  0x507000000280: fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa
+  0x507000000300: fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa
+Shadow byte legend (one shadow byte represents 8 application bytes):
+  Addressable:           00
+  Partially addressable: 01 02 03 04 05 06 07 
+  Heap left redzone:       fa
+  Freed heap region:       fd
+  Stack left redzone:      f1
+  Stack mid redzone:       f2
+  Stack right redzone:     f3
+  Stack after return:      f5
+  Stack use after scope:   f8
+  Global redzone:          f9
+  Global init order:       f6
+  Poisoned by user:        f7
+  Container overflow:      fc
+  Array cookie:            ac
+  Intra object redzone:    bb
+  ASan internal:           fe
+  Left alloca redzone:     ca
+  Right alloca redzone:    cb
+==2211==ABORTING

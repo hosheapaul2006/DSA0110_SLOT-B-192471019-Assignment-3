@@ -1,0 +1,30 @@
+{
+  "source": "Task03/destructor_experiments/mismatched_delete.cpp",
+  "sha256": "9d80a5f79f322105b5af75c90dab1d55292cefffbf7dfd37f83790a71400b2a9",
+  "compile_command": [
+    "g++",
+    "-std=c++17",
+    "-Wall",
+    "-Wextra",
+    "-Wpedantic",
+    "-g",
+    "-O1",
+    "-fsanitize=address",
+    "-fno-omit-frame-pointer",
+    "/home/runner/work/DSA0110_SLOT-B-192471019-Assignment-3/DSA0110_SLOT-B-192471019-Assignment-3/Task03/destructor_experiments/mismatched_delete.cpp",
+    "-o",
+    "/home/runner/work/DSA0110_SLOT-B-192471019-Assignment-3/DSA0110_SLOT-B-192471019-Assignment-3/build/sanitizer/Task03_destructor_experiments_mismatched_delete"
+  ],
+  "compile_exit": 0,
+  "timestamp_utc": "2026-11-10T15:45:18.624739+00:00",
+  "expected_error_pattern": "alloc-dealloc-mismatch",
+  "runner": "GitHub Actions Ubuntu 24.04",
+  "commit": "57584a389bdb8be4bca91cbc847fafad538b35e7",
+  "run_url": "https://github.com/hosheapaul2006/DSA0110_SLOT-B-192471019-Assignment-3/actions/runs/42847619277",
+  "run_command": [
+    "/home/runner/work/DSA0110_SLOT-B-192471019-Assignment-3/DSA0110_SLOT-B-192471019-Assignment-3/build/sanitizer/Task03_destructor_experiments_mismatched_delete"
+  ],
+  "run_exit": 1,
+  "ASAN_OPTIONS": "detect_leaks=1:halt_on_error=1:alloc_dealloc_mismatch=1",
+  "status": "PASS"
+}

@@ -1,0 +1,7 @@
+/home/runner/work/DSA0110_SLOT-B-192471019-Assignment-3/DSA0110_SLOT-B-192471019-Assignment-3/Task03/destructor_experiments/mismatched_delete.cpp: In function ‘int main()’:
+/home/runner/work/DSA0110_SLOT-B-192471019-Assignment-3/DSA0110_SLOT-B-192471019-Assignment-3/Task03/destructor_experiments/mismatched_delete.cpp:3:93: warning: ‘void operator delete(void*, std::size_t)’ called on pointer returned from a mismatched allocation function [-Wmismatched-new-delete]
+    3 | int main() { char* data=new char[32]{};data[0]='X';std::cout << data[0] << std::endl;delete data; }
+      |                                                                                             ^~~~
+/home/runner/work/DSA0110_SLOT-B-192471019-Assignment-3/DSA0110_SLOT-B-192471019-Assignment-3/Task03/destructor_experiments/mismatched_delete.cpp:3:38: note: returned from ‘void* operator new [](std::size_t)’
+    3 | int main() { char* data=new char[32]{};data[0]='X';std::cout << data[0] << std::endl;delete data; }
+      |                                      ^
