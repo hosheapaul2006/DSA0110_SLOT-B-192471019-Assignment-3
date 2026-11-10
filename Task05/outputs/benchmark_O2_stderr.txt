@@ -1,0 +1,21 @@
+CHECK|prefix postfix benchmark state and returned values|PASS
+CHECK|prefix postfix benchmark state and returned values|PASS
+CHECK|prefix postfix benchmark state and returned values|PASS
+CHECK|prefix postfix benchmark state and returned values|PASS
+CHECK|prefix postfix benchmark state and returned values|PASS
+CHECK|prefix postfix benchmark state and returned values|PASS
+CHECK|prefix postfix benchmark state and returned values|PASS
+CHECK|prefix postfix benchmark state and returned values|PASS
+CHECK|prefix postfix benchmark state and returned values|PASS
+CHECK|prefix postfix benchmark state and returned values|PASS
+CHECK|prefix postfix benchmark state and returned values|PASS
+CHECK|prefix postfix benchmark state and returned values|PASS
+CHECK|prefix postfix benchmark state and returned values|PASS
+CHECK|prefix postfix benchmark state and returned values|PASS
+CHECK|prefix postfix benchmark state and returned values|PASS
+CHECK|prefix postfix benchmark state and returned values|PASS
+CHECK|prefix postfix benchmark state and returned values|PASS
+CHECK|prefix postfix benchmark state and returned values|PASS
+CHECK|prefix postfix benchmark state and returned values|PASS
+CHECK|prefix postfix benchmark state and returned values|PASS
+TEST_COUNT 20

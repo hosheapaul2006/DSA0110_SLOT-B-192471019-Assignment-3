@@ -1,0 +1,30 @@
+{
+  "source": "Task05/predict_output.cpp",
+  "sha256": "cfe937319671ae1b98528adb2cac17292f07679a467577c8c2f476e0ed3804b3",
+  "timestamp_utc": "2026-11-10T15:40:56.107783+00:00",
+  "optimization": "-O0",
+  "compile_command": [
+    "C:\\Projects\\SLOT B\\.tools\\mingw64\\bin\\g++.exe",
+    "-std=c++17",
+    "-Wall",
+    "-Wextra",
+    "-Wpedantic",
+    "-O0",
+    "C:\\Projects\\SLOT B\\DSA0110_SLOT-B-192471019-Assignment-3\\Task05\\predict_output.cpp",
+    "-o",
+    "C:\\Projects\\SLOT B\\DSA0110_SLOT-B-192471019-Assignment-3\\build\\Task05\\predict_output.exe"
+  ],
+  "compile_exit": 0,
+  "expected_diagnostic": null,
+  "compile_only": false,
+  "test_count": 1,
+  "headers_sha256": {
+    "Task05/playlist.hpp": "e3a55e13529c7b83a32322a73b6cf3e8d4735aa609f06c769d7d98bb7a433ba4"
+  },
+  "run_command": [
+    "C:\\Projects\\SLOT B\\DSA0110_SLOT-B-192471019-Assignment-3\\build\\Task05\\predict_output.exe"
+  ],
+  "run_exit": 0,
+  "status": "PASS",
+  "expected_comparison": "PASS: exact characters after platform newline decoding"
+}

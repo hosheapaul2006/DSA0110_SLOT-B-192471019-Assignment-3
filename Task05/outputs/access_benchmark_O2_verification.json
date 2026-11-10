@@ -1,0 +1,30 @@
+{
+  "source": "Task05/access_benchmark.cpp",
+  "sha256": "4c43101f382d2b4a89198f291ec89efaf758009dd66cd922cd78883d4f0729ad",
+  "timestamp_utc": "2026-11-10T15:41:01.503322+00:00",
+  "optimization": "-O2",
+  "compile_command": [
+    "C:\\Projects\\SLOT B\\.tools\\mingw64\\bin\\g++.exe",
+    "-std=c++17",
+    "-Wall",
+    "-Wextra",
+    "-Wpedantic",
+    "-O2",
+    "C:\\Projects\\SLOT B\\DSA0110_SLOT-B-192471019-Assignment-3\\Task05\\access_benchmark.cpp",
+    "-o",
+    "C:\\Projects\\SLOT B\\DSA0110_SLOT-B-192471019-Assignment-3\\build\\Task05\\access_benchmark_O2.exe"
+  ],
+  "compile_exit": 0,
+  "expected_diagnostic": null,
+  "compile_only": false,
+  "test_count": 15,
+  "headers_sha256": {
+    "Task05/playlist.hpp": "e3a55e13529c7b83a32322a73b6cf3e8d4735aa609f06c769d7d98bb7a433ba4"
+  },
+  "run_command": [
+    "C:\\Projects\\SLOT B\\DSA0110_SLOT-B-192471019-Assignment-3\\build\\Task05\\access_benchmark_O2.exe",
+    "--tests"
+  ],
+  "run_exit": 0,
+  "status": "PASS"
+}
