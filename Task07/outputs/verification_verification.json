@@ -1,0 +1,31 @@
+{
+  "source": "Task07/verification.cpp",
+  "sha256": "4af4b64105057f7e97dc3fcc5d8b107f91d9aa6d3e60a7bcb90ca5b117432d3f",
+  "timestamp_utc": "2026-11-10T15:52:42.282812+00:00",
+  "optimization": "-O0",
+  "compile_command": [
+    "C:\\Projects\\SLOT B\\.tools\\mingw64\\bin\\g++.exe",
+    "-std=c++17",
+    "-Wall",
+    "-Wextra",
+    "-Wpedantic",
+    "-O0",
+    "C:\\Projects\\SLOT B\\DSA0110_SLOT-B-192471019-Assignment-3\\Task07\\verification.cpp",
+    "-o",
+    "C:\\Projects\\SLOT B\\DSA0110_SLOT-B-192471019-Assignment-3\\build\\Task07\\verification.exe"
+  ],
+  "compile_exit": 0,
+  "expected_diagnostic": null,
+  "compile_only": false,
+  "test_count": 253,
+  "tag": null,
+  "headers_sha256": {
+    "Task07/complex.hpp": "852bdb236c51651bde026c3c8cc4407447425b6afa960ec66977d9d259d5a6d7"
+  },
+  "run_command": [
+    "C:\\Projects\\SLOT B\\DSA0110_SLOT-B-192471019-Assignment-3\\build\\Task07\\verification.exe",
+    "--tests"
+  ],
+  "run_exit": 0,
+  "status": "PASS"
+}

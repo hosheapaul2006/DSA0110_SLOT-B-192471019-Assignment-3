@@ -1,0 +1,15 @@
+CHECK|series impedance matches independent hand-derived reference|PASS
+CHECK|series magnitude reference|PASS
+CHECK|parallel RLC matches independent scalar-admittance reference|PASS
+CHECK|parallel magnitude reference|PASS
+CHECK|default and real-only constructors|PASS
+CHECK|hand complex multiplication|PASS
+CHECK|hand complex division|PASS
+CHECK|supplied two-branch parallel formula|PASS
+CHECK|zero parallel impedance is an ideal short|PASS
+CHECK|division by zero and opposing-reactance singularity rejected|PASS
+CHECK|exact equality separate from approximate verification|PASS
+CHECK|absolute tolerance boundaries|PASS
+CHECK|relative tolerance boundaries|PASS
+CHECK|invalid component and frequency scenarios rejected|PASS
+TEST_COUNT 14
