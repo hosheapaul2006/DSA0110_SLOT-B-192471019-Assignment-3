@@ -1,0 +1,28 @@
+{
+  "source": "Task07/hand_calculation.cpp",
+  "sha256": "5687832d2e7f8cd0697a83be2ceedbe8ebcb53bc70218a1ff6817557395085af",
+  "timestamp_utc": "2026-11-10T15:47:19.091052+00:00",
+  "optimization": "-O0",
+  "compile_command": [
+    "C:\\Projects\\SLOT B\\.tools\\mingw64\\bin\\g++.exe",
+    "-std=c++17",
+    "-Wall",
+    "-Wextra",
+    "-Wpedantic",
+    "-O0",
+    "C:\\Projects\\SLOT B\\DSA0110_SLOT-B-192471019-Assignment-3\\Task07\\hand_calculation.cpp",
+    "-o",
+    "C:\\Projects\\SLOT B\\DSA0110_SLOT-B-192471019-Assignment-3\\build\\Task07\\hand_calculation.exe"
+  ],
+  "compile_exit": 0,
+  "expected_diagnostic": null,
+  "compile_only": false,
+  "test_count": 0,
+  "tag": null,
+  "headers_sha256": {},
+  "run_command": [
+    "C:\\Projects\\SLOT B\\DSA0110_SLOT-B-192471019-Assignment-3\\build\\Task07\\hand_calculation.exe"
+  ],
+  "run_exit": 0,
+  "status": "PASS"
+}
