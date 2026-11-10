@@ -1,0 +1,27 @@
+{
+  "source": "Task01/constructor_experiments/implicit.cpp",
+  "sha256": "4d1fbafed66a35bfbc7e4199f0a14461274420e0b8830e494d5dd7ead4937da3",
+  "timestamp_utc": "2026-11-10T15:28:55.975313+00:00",
+  "optimization": "-O0",
+  "compile_command": [
+    "C:\\Projects\\SLOT B\\.tools\\mingw64\\bin\\g++.exe",
+    "-std=c++17",
+    "-Wall",
+    "-Wextra",
+    "-Wpedantic",
+    "-O0",
+    "C:\\Projects\\SLOT B\\DSA0110_SLOT-B-192471019-Assignment-3\\Task01\\constructor_experiments\\implicit.cpp",
+    "-o",
+    "C:\\Projects\\SLOT B\\DSA0110_SLOT-B-192471019-Assignment-3\\build\\Task01\\constructor_experiments_implicit.exe"
+  ],
+  "compile_exit": 0,
+  "expected_diagnostic": null,
+  "compile_only": false,
+  "test_count": 0,
+  "headers_sha256": {},
+  "run_command": [
+    "C:\\Projects\\SLOT B\\DSA0110_SLOT-B-192471019-Assignment-3\\build\\Task01\\constructor_experiments_implicit.exe"
+  ],
+  "run_exit": 0,
+  "status": "PASS"
+}

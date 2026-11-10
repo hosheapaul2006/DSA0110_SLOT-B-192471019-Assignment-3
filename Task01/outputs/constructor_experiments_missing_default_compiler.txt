@@ -1,0 +1,14 @@
+C:\Projects\SLOT B\DSA0110_SLOT-B-192471019-Assignment-3\Task01\constructor_experiments\missing_default.cpp: In function 'int main()':
+C:\Projects\SLOT B\DSA0110_SLOT-B-192471019-Assignment-3\Task01\constructor_experiments\missing_default.cpp:2:28: error: no matching function for call to 'Book::Book()'
+    2 | int main() { Book records[2]; (void)records; }
+      |                            ^
+C:\Projects\SLOT B\DSA0110_SLOT-B-192471019-Assignment-3\Task01\constructor_experiments\missing_default.cpp:1:24: note: candidate: 'Book::Book(int)'
+    1 | struct Book { explicit Book(int) {} };
+      |                        ^~~~
+C:\Projects\SLOT B\DSA0110_SLOT-B-192471019-Assignment-3\Task01\constructor_experiments\missing_default.cpp:1:24: note:   candidate expects 1 argument, 0 provided
+C:\Projects\SLOT B\DSA0110_SLOT-B-192471019-Assignment-3\Task01\constructor_experiments\missing_default.cpp:1:8: note: candidate: 'constexpr Book::Book(const Book&)'
+    1 | struct Book { explicit Book(int) {} };
+      |        ^~~~
+C:\Projects\SLOT B\DSA0110_SLOT-B-192471019-Assignment-3\Task01\constructor_experiments\missing_default.cpp:1:8: note:   candidate expects 1 argument, 0 provided
+C:\Projects\SLOT B\DSA0110_SLOT-B-192471019-Assignment-3\Task01\constructor_experiments\missing_default.cpp:1:8: note: candidate: 'constexpr Book::Book(Book&&)'
+C:\Projects\SLOT B\DSA0110_SLOT-B-192471019-Assignment-3\Task01\constructor_experiments\missing_default.cpp:1:8: note:   candidate expects 1 argument, 0 provided

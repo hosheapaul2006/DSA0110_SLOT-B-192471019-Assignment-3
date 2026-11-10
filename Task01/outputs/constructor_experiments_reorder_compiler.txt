@@ -1,0 +1,10 @@
+C:\Projects\SLOT B\DSA0110_SLOT-B-192471019-Assignment-3\Task01\constructor_experiments\reorder.cpp: In constructor 'Order::Order()':
+C:\Projects\SLOT B\DSA0110_SLOT-B-192471019-Assignment-3\Task01\constructor_experiments\reorder.cpp:4:9: warning: 'Order::second' will be initialized after [-Wreorder]
+    4 |     int second;
+      |         ^~~~~~
+C:\Projects\SLOT B\DSA0110_SLOT-B-192471019-Assignment-3\Task01\constructor_experiments\reorder.cpp:3:9: warning:   'int Order::first' [-Wreorder]
+    3 |     int first;
+      |         ^~~~~
+C:\Projects\SLOT B\DSA0110_SLOT-B-192471019-Assignment-3\Task01\constructor_experiments\reorder.cpp:6:5: warning:   when initialized here [-Wreorder]
+    6 |     Order():second(20),first(10) {} // Deliberately listed out of declaration order.
+      |     ^~~~~

@@ -1,0 +1,28 @@
+{
+  "source": "Task01/constructor_experiments/reorder.cpp",
+  "sha256": "b5ad009963d350a3809611f593679cd6a82757b2dcdffe0e7d00f74891d7d189",
+  "timestamp_utc": "2026-11-10T15:28:55.344120+00:00",
+  "optimization": "-O0",
+  "compile_command": [
+    "C:\\Projects\\SLOT B\\.tools\\mingw64\\bin\\g++.exe",
+    "-std=c++17",
+    "-Wall",
+    "-Wextra",
+    "-Wpedantic",
+    "-O0",
+    "C:\\Projects\\SLOT B\\DSA0110_SLOT-B-192471019-Assignment-3\\Task01\\constructor_experiments\\reorder.cpp",
+    "-o",
+    "C:\\Projects\\SLOT B\\DSA0110_SLOT-B-192471019-Assignment-3\\build\\Task01\\constructor_experiments_reorder.exe",
+    "-Wreorder"
+  ],
+  "compile_exit": 0,
+  "expected_diagnostic": "warning",
+  "compile_only": false,
+  "test_count": 0,
+  "headers_sha256": {},
+  "run_command": [
+    "C:\\Projects\\SLOT B\\DSA0110_SLOT-B-192471019-Assignment-3\\build\\Task01\\constructor_experiments_reorder.exe"
+  ],
+  "run_exit": 0,
+  "status": "PASS"
+}

@@ -1,0 +1,23 @@
+{
+  "source": "Task01/constructor_experiments/explicit_rejected.cpp",
+  "sha256": "c8ead99f1a0a8739dd9de5051e21c2f62522fd3e14667444b820cd064e8023d8",
+  "timestamp_utc": "2026-11-10T15:28:56.250114+00:00",
+  "optimization": "-O0",
+  "compile_command": [
+    "C:\\Projects\\SLOT B\\.tools\\mingw64\\bin\\g++.exe",
+    "-std=c++17",
+    "-Wall",
+    "-Wextra",
+    "-Wpedantic",
+    "-O0",
+    "C:\\Projects\\SLOT B\\DSA0110_SLOT-B-192471019-Assignment-3\\Task01\\constructor_experiments\\explicit_rejected.cpp",
+    "-o",
+    "C:\\Projects\\SLOT B\\DSA0110_SLOT-B-192471019-Assignment-3\\build\\Task01\\constructor_experiments_explicit_rejected.exe"
+  ],
+  "compile_exit": 1,
+  "expected_diagnostic": "error",
+  "compile_only": false,
+  "test_count": 1,
+  "headers_sha256": {},
+  "status": "PASS: expected compiler error"
+}
