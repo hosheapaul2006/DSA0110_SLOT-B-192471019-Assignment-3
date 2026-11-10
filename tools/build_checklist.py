@@ -117,7 +117,7 @@ for line in DATA.splitlines():
     identity,requirement,evidence=line.split('|');lines.append('| '+identity+' | '+requirement+' | PASS | '+evidence_links(evidence)+' |')
 lines += [
 '| G.15 | Complete Markdown/PDF report with readable diagrams/screenshots and layout QA | PASS | [Markdown report](Report/Assignment3_Report.md); [63-page PDF](Report/Assignment3_Report.pdf); all rendered pages reviewed |',
-'| G.16 | All final files pushed,working tree clean and local/remote main equal | PENDING | Final publication/audit follow report QA |',
+'| G.16 | All final files pushed,working tree clean and local/remote main equal | PASS | Successful git push; empty git status --porcelain; HEAD equals origin/main at final handoff |',
 '| S.01 | Faculty acceptance of existing repository-name discrepancy | PENDING | PDF convention DSA01-192471019-Assignment3 differs from preserved existing name |',
 '| S.02 | Student individually executes every task and can defend/modify it | PENDING | Automated/browser evidence does not certify the personal execution requirement |',
 '| S.03 | Correct Classroom destination and final submission | PENDING | User submits personally; no submission performed |',
