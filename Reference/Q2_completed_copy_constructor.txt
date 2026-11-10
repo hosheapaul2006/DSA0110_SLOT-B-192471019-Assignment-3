@@ -1,0 +1,5 @@
+    Prescription(const Prescription& other) : n(other.n), medicines(new std::string[other.n])
+    {
+        try { for (int i = 0; i < n; ++i) medicines[i] = other.medicines[i]; }
+        catch (...) { delete[] medicines; throw; }
+    }

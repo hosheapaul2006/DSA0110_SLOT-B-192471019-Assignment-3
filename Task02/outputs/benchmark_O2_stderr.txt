@@ -1,0 +1,16 @@
+CHECK|copied prescription content checksum|PASS
+CHECK|copied prescription content checksum|PASS
+CHECK|copied prescription content checksum|PASS
+CHECK|copied prescription content checksum|PASS
+CHECK|copied prescription content checksum|PASS
+CHECK|copied prescription content checksum|PASS
+CHECK|copied prescription content checksum|PASS
+CHECK|copied prescription content checksum|PASS
+CHECK|copied prescription content checksum|PASS
+CHECK|copied prescription content checksum|PASS
+CHECK|copied prescription content checksum|PASS
+CHECK|copied prescription content checksum|PASS
+CHECK|copied prescription content checksum|PASS
+CHECK|copied prescription content checksum|PASS
+CHECK|copied prescription content checksum|PASS
+TEST_COUNT 15

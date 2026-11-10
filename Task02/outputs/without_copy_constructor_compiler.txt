@@ -1,0 +1,7 @@
+C:\Projects\SLOT B\DSA0110_SLOT-B-192471019-Assignment-3\Task02\without_copy_constructor.cpp: In function 'int main()':
+C:\Projects\SLOT B\DSA0110_SLOT-B-192471019-Assignment-3\Task02\without_copy_constructor.cpp:38:22: warning: implicitly-declared 'constexpr Prescription::Prescription(const Prescription&)' is deprecated [-Wdeprecated-copy]
+   38 |     Prescription q = p;                // copy constructor
+      |                      ^
+C:\Projects\SLOT B\DSA0110_SLOT-B-192471019-Assignment-3\Task02\without_copy_constructor.cpp:12:19: note: because 'Prescription' has user-provided 'Prescription& Prescription::operator=(const Prescription&)'
+   12 |     Prescription& operator=(const Prescription& other)
+      |                   ^~~~~~~~

@@ -1,0 +1,22 @@
+#include <iomanip> 
+#include <iostream> 
+ 
+class Money { 
+    long long paise; 
+ 
+public: 
+    Money(long long rupees = 0, int p = 0) : paise(rupees * 100 + p) {} 
+ 
+    // TODO 1: Overload + as a member function that returns a new Money object 
+     
+ 
+    // TODO 2: Overload == as a member, and << as a friend that prints "Rs 200.00" 
+     
+}; 
+ 
+int main() 
+{ 
+    Money a(120, 75), b(79, 25); 
+    Money c = a + b; 
+    std::cout << c << '\n' << std::boolalpha << (c == Money(200)) << '\n'; 
+}

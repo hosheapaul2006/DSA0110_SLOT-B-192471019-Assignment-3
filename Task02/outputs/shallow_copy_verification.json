@@ -1,0 +1,25 @@
+{
+  "source": "Task02/shallow_copy.cpp",
+  "sha256": "849ac574b2fb5a3d2eef5264bfa629127db6f9c16d60a881ab82fbcea0264f7b",
+  "timestamp_utc": "2026-11-10T15:32:04.394562+00:00",
+  "optimization": "-O0",
+  "compile_command": [
+    "C:\\Projects\\SLOT B\\.tools\\mingw64\\bin\\g++.exe",
+    "-std=c++17",
+    "-Wall",
+    "-Wextra",
+    "-Wpedantic",
+    "-O0",
+    "C:\\Projects\\SLOT B\\DSA0110_SLOT-B-192471019-Assignment-3\\Task02\\shallow_copy.cpp",
+    "-o",
+    "C:\\Projects\\SLOT B\\DSA0110_SLOT-B-192471019-Assignment-3\\build\\Task02\\shallow_copy.exe"
+  ],
+  "compile_exit": 0,
+  "expected_diagnostic": null,
+  "compile_only": true,
+  "test_count": 0,
+  "headers_sha256": {
+    "Task02/prescription.hpp": "665d7ed851d3af96e3d33044c2ec04b55f17d9dc013e44d8ae7b6cb622e1061d"
+  },
+  "status": "PASS: compiled only; execution reserved for isolated sanitizer test"
+}

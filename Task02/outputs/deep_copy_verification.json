@@ -1,0 +1,30 @@
+{
+  "source": "Task02/deep_copy.cpp",
+  "sha256": "c29ac6ffc19379163ed60614766c991962b66f73c3d614beb2e7344fe7252593",
+  "timestamp_utc": "2026-11-10T15:32:03.060550+00:00",
+  "optimization": "-O0",
+  "compile_command": [
+    "C:\\Projects\\SLOT B\\.tools\\mingw64\\bin\\g++.exe",
+    "-std=c++17",
+    "-Wall",
+    "-Wextra",
+    "-Wpedantic",
+    "-O0",
+    "C:\\Projects\\SLOT B\\DSA0110_SLOT-B-192471019-Assignment-3\\Task02\\deep_copy.cpp",
+    "-o",
+    "C:\\Projects\\SLOT B\\DSA0110_SLOT-B-192471019-Assignment-3\\build\\Task02\\deep_copy.exe"
+  ],
+  "compile_exit": 0,
+  "expected_diagnostic": null,
+  "compile_only": false,
+  "test_count": 2,
+  "headers_sha256": {
+    "Task02/prescription.hpp": "665d7ed851d3af96e3d33044c2ec04b55f17d9dc013e44d8ae7b6cb622e1061d"
+  },
+  "run_command": [
+    "C:\\Projects\\SLOT B\\DSA0110_SLOT-B-192471019-Assignment-3\\build\\Task02\\deep_copy.exe",
+    "--tests"
+  ],
+  "run_exit": 0,
+  "status": "PASS"
+}
