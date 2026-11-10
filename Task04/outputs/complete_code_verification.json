@@ -1,0 +1,30 @@
+{
+  "source": "Task04/complete_code.cpp",
+  "sha256": "f51cb7a8c32783329647c98280c12600c75c5269184788f44c44d6cfc76c8fda",
+  "timestamp_utc": "2026-11-10T15:38:18.966143+00:00",
+  "optimization": "-O0",
+  "compile_command": [
+    "C:\\Projects\\SLOT B\\.tools\\mingw64\\bin\\g++.exe",
+    "-std=c++17",
+    "-Wall",
+    "-Wextra",
+    "-Wpedantic",
+    "-O0",
+    "C:\\Projects\\SLOT B\\DSA0110_SLOT-B-192471019-Assignment-3\\Task04\\complete_code.cpp",
+    "-o",
+    "C:\\Projects\\SLOT B\\DSA0110_SLOT-B-192471019-Assignment-3\\build\\Task04\\complete_code.exe"
+  ],
+  "compile_exit": 0,
+  "expected_diagnostic": null,
+  "compile_only": false,
+  "test_count": 1,
+  "headers_sha256": {
+    "Task04/money.hpp": "c6e523e138e6caf4bc36717246ae95557185525764c86606ab271ee2c37cd881"
+  },
+  "run_command": [
+    "C:\\Projects\\SLOT B\\DSA0110_SLOT-B-192471019-Assignment-3\\build\\Task04\\complete_code.exe"
+  ],
+  "run_exit": 0,
+  "status": "PASS",
+  "expected_comparison": "PASS: exact characters after platform newline decoding"
+}

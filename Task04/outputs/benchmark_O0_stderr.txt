@@ -1,0 +1,11 @@
+CHECK|integer million-addition exact checksum|PASS
+CHECK|double million-addition result within documented bound|PASS
+CHECK|double million-addition result within documented bound|PASS
+CHECK|integer million-addition exact checksum|PASS
+CHECK|integer million-addition exact checksum|PASS
+CHECK|double million-addition result within documented bound|PASS
+CHECK|double million-addition result within documented bound|PASS
+CHECK|integer million-addition exact checksum|PASS
+CHECK|integer million-addition exact checksum|PASS
+CHECK|double million-addition result within documented bound|PASS
+TEST_COUNT 10
