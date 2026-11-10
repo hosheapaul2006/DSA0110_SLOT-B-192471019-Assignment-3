@@ -67,43 +67,43 @@
   },
   "Task04/benchmark_O0/integer_paise": {
     "trials_ms": [
-      1.0381,
-      1.0353,
-      1.0318,
-      1.0341,
-      1.0315
+      2.5511,
+      2.5935,
+      3.0207,
+      2.5521,
+      2.7628
     ],
-    "median_ms": 1.0341
+    "median_ms": 2.5935
   },
   "Task04/benchmark_O0/double_rupees": {
     "trials_ms": [
-      2.4775,
-      2.4769,
-      2.4893,
-      2.4779,
-      2.5016
+      6.1799,
+      6.1785,
+      6.1043,
+      6.1129,
+      6.0546
     ],
-    "median_ms": 2.4779
+    "median_ms": 6.1129
   },
   "Task04/benchmark_O2/integer_paise": {
     "trials_ms": [
-      0.2062,
-      0.2062,
-      0.2062,
-      0.2064,
-      0.2064
+      0.4991,
+      0.5575,
+      0.5057,
+      0.5027,
+      0.526
     ],
-    "median_ms": 0.2062
+    "median_ms": 0.5057
   },
   "Task04/benchmark_O2/double_rupees": {
     "trials_ms": [
-      0.6254,
-      0.6185,
-      0.6209,
-      0.6187,
-      0.619
+      1.511,
+      1.5109,
+      1.4982,
+      1.5098,
+      1.4981
     ],
-    "median_ms": 0.619
+    "median_ms": 1.5098
   },
   "Task05/access_benchmark_O0/checked_subscript": {
     "trials_ms": [

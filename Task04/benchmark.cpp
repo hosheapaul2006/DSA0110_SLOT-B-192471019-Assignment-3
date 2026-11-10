@@ -18,7 +18,8 @@ int main(int argc,char** argv) {
             for(int i=0;i<operations;++i) sum+=paise[static_cast<unsigned>(i)&1023u];
             const auto end=std::chrono::steady_clock::now();
             tests.check(sum==expected,"integer million-addition exact checksum");
-            std::cout << trial << ",integer_paise," << operations << ',' << std::chrono::duration<double,std::milli>(end-begin).count() << ',' << sum/100.0 << ",0\n";
+            std::cout << trial << ",integer_paise," << operations << ',' << std::chrono::duration<double,std::milli>(end-begin).count()
+                      << ',' << sum/100 << '.' << std::setfill('0') << std::setw(2) << sum%100 << ",0\n";
         };
         auto floating=[&]() {
             double sum=0;const auto begin=std::chrono::steady_clock::now();

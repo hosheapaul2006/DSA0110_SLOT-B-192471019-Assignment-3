@@ -18,9 +18,9 @@ preserved as instructed and the discrepancy is flagged for faculty acceptance.
 
 ## Environments and evidence
 
-- Local normal tests/benchmarks: Windows, GCC14.2.0 (WinLibs MinGW-w64 x86_64 UCRT POSIX SEH).
+- Local normal tests/benchmarks: Windows, GCC 14.2.0 (WinLibs MinGW-w64 x86_64 UCRT POSIX SEH).
 - Actual local version, CPU and platform: Reference/compiler_version.txt, processor.txt and platform.txt.
-- Sanitizers: GCC13.3.0 on GitHub-hosted Ubuntu24.04, with actual version/platform/commit in Reference/sanitizer_environment.txt.
+- Sanitizers: GCC 13.3.0 on GitHub-hosted Ubuntu 24.04, with actual version/platform/commit in Reference/sanitizer_environment.txt.
 - Online demonstrations: actual [Programiz C++ compiler](https://www.programiz.com/cpp-programming/online-compiler/) runs and source/output screenshots.
 
 The local Windows GCC distribution lacks ASan/LeakSanitizer runtime libraries.
@@ -29,16 +29,16 @@ it is explicitly remote Linux evidence and is not described as local execution.
 [Successful sanitizer run](https://github.com/hosheapaul2006/DSA0110_SLOT-B-192471019-Assignment-3/actions/runs/42848528926).
 Raw per-program compiler/stdout/stderr/exit records are under the corresponding outputs/ folders.
 
-28 base programs compiled successfully. Of these,24 safe normal programs ran locally;
+28 base programs compiled successfully. Of these, 24 safe normal programs ran locally;
 four deliberately unsafe programs ran only under isolated Linux sanitizers. Eleven
-self-contained browser-source builds give39 successfully compiled source files.
-Two additional sources intentionally fail compilation. There are41 successful
+self-contained browser-source builds give 39 successfully compiled source files.
+Two additional sources intentionally fail compilation. There are 41 successful
 normal local build/run configurations, including optimization/elision variants,
-and838 recorded local check evaluations (503 in base configurations,335 repeated
+and 838 recorded local check evaluations (503 in base configurations, 335 repeated
 in derived browser builds). Eleven sanitizer cases comprise seven clean cases
 and four expected-diagnostic cases. Fifteen Programiz programs matched local
-stdout;29 genuine screenshots include additional source sections for long files.
-These counts include repeated configurations, not838 distinct input scenarios.
+stdout; 29 genuine screenshots include additional source sections for long files.
+These counts include repeated configurations, not 838 distinct input scenarios.
 
 ## Compile and execute
 
@@ -149,13 +149,13 @@ python3 tools/sanitizers.py
 
 The workflow checks out the exact public commit and runs the same sanitizer
 script. It exports raw evidence losslessly into its job log. Correct programs
-must exit0 with empty sanitizer stderr; unsafe cases must exit nonzero with the
+must exit 0 with empty sanitizer stderr; unsafe cases must exit nonzero with the
 specific expected ASan/LSan report. A PASS on an unsafe test means the defect was
 genuinely diagnosed, never that the unsafe implementation is correct.
 
 The first missing-delete test produced no leak diagnostic; that failed expectation
 and all its original bytes are preserved in Reference/sanitizer_attempt1/.
-The revised completed-worker-thread test produced102 leaked bytes/four allocations.
+The revised completed-worker-thread test produced 102 leaked bytes/four allocations.
 See Reference/sanitizer_experiment_notes.md for the investigation and actual run links.
 
 ## Reproduction tools and results
@@ -182,13 +182,13 @@ PDF regeneration additionally uses reportlab,pypdf,Pillow with tools/build_repor
 | Q4 | Integer arithmetic/streams/carry/negative/limits; exact TODO output and million-addition results |
 | Q5 | Prefix/postfix/const access/range/rollover; exact Counter prediction and measured access/increment costs |
 | Q6 | Rule of Three, empty/long/chained values; actual elision counts, clean sanitizer runs and measured alternatives |
-| Q7 | Four design stages; scalar reference,248 standard-library arithmetic comparisons and singular/boundary cases |
+| Q7 | Four design stages; scalar reference, 248 standard-library arithmetic comparisons and singular/boundary cases |
 
-At-O2, median copy lifetimes for10/1000/100000 medicines were0.05233/3.833/923.5
+At -O2, median copy lifetimes for 10/1000/100000 medicines were 0.05233/3.833/923.5
 microseconds per complete copy lifetime. Discarded prefix/postfix medians were
-2.9802/2.9848ms for10M operations, showing no meaningful universal postfix penalty.
-Checked/unchecked access medians were2.6824/2.5823ms for10M accesses. Custom direct
-Text/std::string medians were5.5934/6.1252ms for100000 chains on this workload.
+2.9802/2.9848ms for 10M operations, showing no meaningful universal postfix penalty.
+Checked/unchecked access medians were 2.6824/2.5823ms for 10M accesses. Custom direct
+Text/std::string medians were 5.5934/6.1252ms for 100000 chains on this workload.
 All flags, five-trial data, numerical errors and methodology limits are in the
 task benchmark_results.md files; these observations do not guarantee other platforms.
 
@@ -204,7 +204,7 @@ tools/          Build, audit, summary, sanitizer and document orchestration
 .github/        Ubuntu sanitizer workflow
 ```
 
-Predictions were committed before execution: Q3 commit0aa0309 and Q5 commita7c3793.
+Predictions were committed before execution: Q3 commit 0aa0309 and Q5 commit a7c3793.
 The original files and supplied programs remain unchanged after observation.
 Normal valid sources compile without unexpected warnings. Original TODO code
 outside the replaced sections is verified against the extracted PDF programs.

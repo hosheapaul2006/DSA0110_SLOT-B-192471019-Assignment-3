@@ -114,7 +114,7 @@ Derived from all15 pages of Reference/Assignment 3.pdf and the preparation brief
 | G.12 | Submission date left unspecified because PDF field is blank | PASS | [README.md](README.md) |
 | G.13 | Repository link and report cover identify exact existing repository | PASS | [SUBMISSION_PREPARATION.md](SUBMISSION_PREPARATION.md) |
 | G.14 | Classroom report/link materials and manual steps prepared | PASS | [SUBMISSION_PREPARATION.md](SUBMISSION_PREPARATION.md) |
-| G.15 | Complete Markdown/PDF report with readable diagrams/screenshots and layout QA | PENDING | Report generation and rendered-page verification follow |
+| G.15 | Complete Markdown/PDF report with readable diagrams/screenshots and layout QA | PASS | [Markdown report](Report/Assignment3_Report.md); [63-page PDF](Report/Assignment3_Report.pdf); all rendered pages reviewed |
 | G.16 | All final files pushed,working tree clean and local/remote main equal | PENDING | Final publication/audit follow report QA |
 | S.01 | Faculty acceptance of existing repository-name discrepancy | PENDING | PDF convention DSA01-192471019-Assignment3 differs from preserved existing name |
 | S.02 | Student individually executes every task and can defend/modify it | PENDING | Automated/browser evidence does not certify the personal execution requirement |
