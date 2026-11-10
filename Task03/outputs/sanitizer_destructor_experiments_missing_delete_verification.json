@@ -1,0 +1,30 @@
+{
+  "source": "Task03/destructor_experiments/missing_delete.cpp",
+  "sha256": "4abc26bdaa19ee7bd53e66a43e241f900e30377d981dfa4f22d15ff8d38a7714",
+  "compile_command": [
+    "g++",
+    "-std=c++17",
+    "-Wall",
+    "-Wextra",
+    "-Wpedantic",
+    "-g",
+    "-O1",
+    "-fsanitize=address",
+    "-fno-omit-frame-pointer",
+    "/home/runner/work/DSA0110_SLOT-B-192471019-Assignment-3/DSA0110_SLOT-B-192471019-Assignment-3/Task03/destructor_experiments/missing_delete.cpp",
+    "-o",
+    "/home/runner/work/DSA0110_SLOT-B-192471019-Assignment-3/DSA0110_SLOT-B-192471019-Assignment-3/build/sanitizer/Task03_destructor_experiments_missing_delete"
+  ],
+  "compile_exit": 0,
+  "timestamp_utc": "2026-11-10T15:50:25.025461+00:00",
+  "expected_error_pattern": "LeakSanitizer: detected memory leaks",
+  "runner": "GitHub Actions Ubuntu 24.04",
+  "commit": "e17e99ccef270679301186df5b61534898ada101",
+  "run_url": "https://github.com/hosheapaul2006/DSA0110_SLOT-B-192471019-Assignment-3/actions/runs/42848528926",
+  "run_command": [
+    "/home/runner/work/DSA0110_SLOT-B-192471019-Assignment-3/DSA0110_SLOT-B-192471019-Assignment-3/build/sanitizer/Task03_destructor_experiments_missing_delete"
+  ],
+  "run_exit": 1,
+  "ASAN_OPTIONS": "detect_leaks=1:halt_on_error=1:alloc_dealloc_mismatch=1",
+  "status": "PASS"
+}

@@ -1,0 +1,5 @@
+Bill=Rs 180.00
+Carry=Rs 1.25
+Negative=Rs -0.25
+Read=Rs -12.30
+

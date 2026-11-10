@@ -1,0 +1,308 @@
+{
+  "Task02/benchmark_O0/medicines=10, copies=10000": {
+    "trials_ms": [
+      1.1528,
+      1.1635,
+      1.1237,
+      1.1218,
+      1.1184
+    ],
+    "median_ms": 1.1237,
+    "microseconds_per_copy": 0.11236999999999998
+  },
+  "Task02/benchmark_O0/medicines=1000, copies=200": {
+    "trials_ms": [
+      1.7904,
+      3.141,
+      1.7641,
+      1.7615,
+      1.7629
+    ],
+    "median_ms": 1.7641,
+    "microseconds_per_copy": 8.8205
+  },
+  "Task02/benchmark_O0/medicines=100000, copies=5": {
+    "trials_ms": [
+      7.7183,
+      7.4538,
+      6.6897,
+      6.6162,
+      6.7377
+    ],
+    "median_ms": 6.7377,
+    "microseconds_per_copy": 1347.54
+  },
+  "Task02/benchmark_O2/medicines=10, copies=10000": {
+    "trials_ms": [
+      0.6514,
+      0.5249,
+      0.5233,
+      0.5182,
+      0.5207
+    ],
+    "median_ms": 0.5233,
+    "microseconds_per_copy": 0.052329999999999995
+  },
+  "Task02/benchmark_O2/medicines=1000, copies=200": {
+    "trials_ms": [
+      0.7767,
+      0.7639,
+      0.7682,
+      0.7666,
+      0.766
+    ],
+    "median_ms": 0.7666,
+    "microseconds_per_copy": 3.8329999999999997
+  },
+  "Task02/benchmark_O2/medicines=100000, copies=5": {
+    "trials_ms": [
+      5.1583,
+      4.6175,
+      4.6713,
+      4.5913,
+      4.5522
+    ],
+    "median_ms": 4.6175,
+    "microseconds_per_copy": 923.5
+  },
+  "Task04/benchmark_O0/integer_paise": {
+    "trials_ms": [
+      1.0381,
+      1.0353,
+      1.0318,
+      1.0341,
+      1.0315
+    ],
+    "median_ms": 1.0341
+  },
+  "Task04/benchmark_O0/double_rupees": {
+    "trials_ms": [
+      2.4775,
+      2.4769,
+      2.4893,
+      2.4779,
+      2.5016
+    ],
+    "median_ms": 2.4779
+  },
+  "Task04/benchmark_O2/integer_paise": {
+    "trials_ms": [
+      0.2062,
+      0.2062,
+      0.2062,
+      0.2064,
+      0.2064
+    ],
+    "median_ms": 0.2062
+  },
+  "Task04/benchmark_O2/double_rupees": {
+    "trials_ms": [
+      0.6254,
+      0.6185,
+      0.6209,
+      0.6187,
+      0.619
+    ],
+    "median_ms": 0.619
+  },
+  "Task05/access_benchmark_O0/checked_subscript": {
+    "trials_ms": [
+      65.4167,
+      66.1265,
+      66.1143,
+      65.9898,
+      65.8227
+    ],
+    "median_ms": 65.9898
+  },
+  "Task05/access_benchmark_O0/at": {
+    "trials_ms": [
+      74.4389,
+      74.9936,
+      74.7879,
+      74.2176,
+      73.9988
+    ],
+    "median_ms": 74.4389
+  },
+  "Task05/access_benchmark_O0/unchecked": {
+    "trials_ms": [
+      46.5257,
+      46.5928,
+      46.5679,
+      46.5148,
+      47.0309
+    ],
+    "median_ms": 46.5679
+  },
+  "Task05/access_benchmark_O2/checked_subscript": {
+    "trials_ms": [
+      2.695,
+      2.6824,
+      2.7029,
+      2.6801,
+      2.6671
+    ],
+    "median_ms": 2.6824
+  },
+  "Task05/access_benchmark_O2/at": {
+    "trials_ms": [
+      2.6627,
+      2.6545,
+      2.6637,
+      2.6433,
+      2.6872
+    ],
+    "median_ms": 2.6627
+  },
+  "Task05/access_benchmark_O2/unchecked": {
+    "trials_ms": [
+      2.6246,
+      2.6088,
+      2.5069,
+      2.5823,
+      2.4965
+    ],
+    "median_ms": 2.5823
+  },
+  "Task05/benchmark_O0/prefix_discarded": {
+    "trials_ms": [
+      44.3884,
+      44.3254,
+      44.1663,
+      44.863,
+      44.189
+    ],
+    "median_ms": 44.3254
+  },
+  "Task05/benchmark_O0/postfix_discarded": {
+    "trials_ms": [
+      55.0947,
+      55.0223,
+      54.849,
+      54.7139,
+      54.8203
+    ],
+    "median_ms": 54.849
+  },
+  "Task05/benchmark_O0/prefix_value_used": {
+    "trials_ms": [
+      52.7344,
+      52.5345,
+      52.4733,
+      52.3578,
+      53.1163
+    ],
+    "median_ms": 52.5345
+  },
+  "Task05/benchmark_O0/postfix_value_used": {
+    "trials_ms": [
+      63.8567,
+      63.4121,
+      63.4748,
+      63.4573,
+      63.2883
+    ],
+    "median_ms": 63.4573
+  },
+  "Task05/benchmark_O2/prefix_discarded": {
+    "trials_ms": [
+      2.976,
+      2.9802,
+      3.0104,
+      2.9791,
+      3.0058
+    ],
+    "median_ms": 2.9802
+  },
+  "Task05/benchmark_O2/postfix_discarded": {
+    "trials_ms": [
+      2.9745,
+      2.9848,
+      3.0053,
+      3.0469,
+      2.9826
+    ],
+    "median_ms": 2.9848
+  },
+  "Task05/benchmark_O2/prefix_value_used": {
+    "trials_ms": [
+      3.4837,
+      3.5256,
+      3.5284,
+      3.6255,
+      3.5028
+    ],
+    "median_ms": 3.5256
+  },
+  "Task05/benchmark_O2/postfix_value_used": {
+    "trials_ms": [
+      3.5269,
+      3.53,
+      3.6646,
+      3.7159,
+      3.6235
+    ],
+    "median_ms": 3.6235
+  },
+  "Task06/benchmark_O0/custom_direct": {
+    "trials_ms": [
+      6.7143,
+      6.7271,
+      6.7753,
+      6.7836,
+      6.8045
+    ],
+    "median_ms": 6.7753
+  },
+  "Task06/benchmark_O0/std_string": {
+    "trials_ms": [
+      7.5531,
+      7.4894,
+      7.5854,
+      7.6506,
+      7.6715
+    ],
+    "median_ms": 7.5854
+  },
+  "Task06/benchmark_O0/custom_copy_plus": {
+    "trials_ms": [
+      14.6707,
+      14.8117,
+      14.8317,
+      14.8912,
+      14.9734
+    ],
+    "median_ms": 14.8317
+  },
+  "Task06/benchmark_O2/custom_direct": {
+    "trials_ms": [
+      5.6018,
+      5.5872,
+      5.5934,
+      5.6963,
+      5.5898
+    ],
+    "median_ms": 5.5934
+  },
+  "Task06/benchmark_O2/std_string": {
+    "trials_ms": [
+      6.0384,
+      6.0978,
+      6.1299,
+      6.1335,
+      6.1252
+    ],
+    "median_ms": 6.1252
+  },
+  "Task06/benchmark_O2/custom_copy_plus": {
+    "trials_ms": [
+      12.2999,
+      12.4347,
+      12.5962,
+      12.7052,
+      12.6454
+    ],
+    "median_ms": 12.5962
+  }
+}

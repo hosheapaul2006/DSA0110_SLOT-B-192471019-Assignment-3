@@ -1,0 +1,254 @@
+CHECK|std complex addition agreement|PASS
+CHECK|std complex subtraction agreement|PASS
+CHECK|std complex multiplication agreement|PASS
+CHECK|std complex addition agreement|PASS
+CHECK|std complex subtraction agreement|PASS
+CHECK|std complex multiplication agreement|PASS
+CHECK|std complex division agreement for nonzero divisor|PASS
+CHECK|std complex addition agreement|PASS
+CHECK|std complex subtraction agreement|PASS
+CHECK|std complex multiplication agreement|PASS
+CHECK|std complex division agreement for nonzero divisor|PASS
+CHECK|std complex addition agreement|PASS
+CHECK|std complex subtraction agreement|PASS
+CHECK|std complex multiplication agreement|PASS
+CHECK|std complex division agreement for nonzero divisor|PASS
+CHECK|std complex addition agreement|PASS
+CHECK|std complex subtraction agreement|PASS
+CHECK|std complex multiplication agreement|PASS
+CHECK|std complex division agreement for nonzero divisor|PASS
+CHECK|std complex addition agreement|PASS
+CHECK|std complex subtraction agreement|PASS
+CHECK|std complex multiplication agreement|PASS
+CHECK|std complex division agreement for nonzero divisor|PASS
+CHECK|std complex addition agreement|PASS
+CHECK|std complex subtraction agreement|PASS
+CHECK|std complex multiplication agreement|PASS
+CHECK|std complex division agreement for nonzero divisor|PASS
+CHECK|std complex addition agreement|PASS
+CHECK|std complex subtraction agreement|PASS
+CHECK|std complex multiplication agreement|PASS
+CHECK|std complex division agreement for nonzero divisor|PASS
+CHECK|std complex addition agreement|PASS
+CHECK|std complex subtraction agreement|PASS
+CHECK|std complex multiplication agreement|PASS
+CHECK|std complex addition agreement|PASS
+CHECK|std complex subtraction agreement|PASS
+CHECK|std complex multiplication agreement|PASS
+CHECK|std complex division agreement for nonzero divisor|PASS
+CHECK|std complex addition agreement|PASS
+CHECK|std complex subtraction agreement|PASS
+CHECK|std complex multiplication agreement|PASS
+CHECK|std complex division agreement for nonzero divisor|PASS
+CHECK|std complex addition agreement|PASS
+CHECK|std complex subtraction agreement|PASS
+CHECK|std complex multiplication agreement|PASS
+CHECK|std complex division agreement for nonzero divisor|PASS
+CHECK|std complex addition agreement|PASS
+CHECK|std complex subtraction agreement|PASS
+CHECK|std complex multiplication agreement|PASS
+CHECK|std complex division agreement for nonzero divisor|PASS
+CHECK|std complex addition agreement|PASS
+CHECK|std complex subtraction agreement|PASS
+CHECK|std complex multiplication agreement|PASS
+CHECK|std complex division agreement for nonzero divisor|PASS
+CHECK|std complex addition agreement|PASS
+CHECK|std complex subtraction agreement|PASS
+CHECK|std complex multiplication agreement|PASS
+CHECK|std complex division agreement for nonzero divisor|PASS
+CHECK|std complex addition agreement|PASS
+CHECK|std complex subtraction agreement|PASS
+CHECK|std complex multiplication agreement|PASS
+CHECK|std complex division agreement for nonzero divisor|PASS
+CHECK|std complex addition agreement|PASS
+CHECK|std complex subtraction agreement|PASS
+CHECK|std complex multiplication agreement|PASS
+CHECK|std complex addition agreement|PASS
+CHECK|std complex subtraction agreement|PASS
+CHECK|std complex multiplication agreement|PASS
+CHECK|std complex division agreement for nonzero divisor|PASS
+CHECK|std complex addition agreement|PASS
+CHECK|std complex subtraction agreement|PASS
+CHECK|std complex multiplication agreement|PASS
+CHECK|std complex division agreement for nonzero divisor|PASS
+CHECK|std complex addition agreement|PASS
+CHECK|std complex subtraction agreement|PASS
+CHECK|std complex multiplication agreement|PASS
+CHECK|std complex division agreement for nonzero divisor|PASS
+CHECK|std complex addition agreement|PASS
+CHECK|std complex subtraction agreement|PASS
+CHECK|std complex multiplication agreement|PASS
+CHECK|std complex division agreement for nonzero divisor|PASS
+CHECK|std complex addition agreement|PASS
+CHECK|std complex subtraction agreement|PASS
+CHECK|std complex multiplication agreement|PASS
+CHECK|std complex division agreement for nonzero divisor|PASS
+CHECK|std complex addition agreement|PASS
+CHECK|std complex subtraction agreement|PASS
+CHECK|std complex multiplication agreement|PASS
+CHECK|std complex division agreement for nonzero divisor|PASS
+CHECK|std complex addition agreement|PASS
+CHECK|std complex subtraction agreement|PASS
+CHECK|std complex multiplication agreement|PASS
+CHECK|std complex division agreement for nonzero divisor|PASS
+CHECK|std complex addition agreement|PASS
+CHECK|std complex subtraction agreement|PASS
+CHECK|std complex multiplication agreement|PASS
+CHECK|std complex addition agreement|PASS
+CHECK|std complex subtraction agreement|PASS
+CHECK|std complex multiplication agreement|PASS
+CHECK|std complex division agreement for nonzero divisor|PASS
+CHECK|std complex addition agreement|PASS
+CHECK|std complex subtraction agreement|PASS
+CHECK|std complex multiplication agreement|PASS
+CHECK|std complex division agreement for nonzero divisor|PASS
+CHECK|std complex addition agreement|PASS
+CHECK|std complex subtraction agreement|PASS
+CHECK|std complex multiplication agreement|PASS
+CHECK|std complex division agreement for nonzero divisor|PASS
+CHECK|std complex addition agreement|PASS
+CHECK|std complex subtraction agreement|PASS
+CHECK|std complex multiplication agreement|PASS
+CHECK|std complex division agreement for nonzero divisor|PASS
+CHECK|std complex addition agreement|PASS
+CHECK|std complex subtraction agreement|PASS
+CHECK|std complex multiplication agreement|PASS
+CHECK|std complex division agreement for nonzero divisor|PASS
+CHECK|std complex addition agreement|PASS
+CHECK|std complex subtraction agreement|PASS
+CHECK|std complex multiplication agreement|PASS
+CHECK|std complex division agreement for nonzero divisor|PASS
+CHECK|std complex addition agreement|PASS
+CHECK|std complex subtraction agreement|PASS
+CHECK|std complex multiplication agreement|PASS
+CHECK|std complex division agreement for nonzero divisor|PASS
+CHECK|std complex addition agreement|PASS
+CHECK|std complex subtraction agreement|PASS
+CHECK|std complex multiplication agreement|PASS
+CHECK|std complex addition agreement|PASS
+CHECK|std complex subtraction agreement|PASS
+CHECK|std complex multiplication agreement|PASS
+CHECK|std complex division agreement for nonzero divisor|PASS
+CHECK|std complex addition agreement|PASS
+CHECK|std complex subtraction agreement|PASS
+CHECK|std complex multiplication agreement|PASS
+CHECK|std complex division agreement for nonzero divisor|PASS
+CHECK|std complex addition agreement|PASS
+CHECK|std complex subtraction agreement|PASS
+CHECK|std complex multiplication agreement|PASS
+CHECK|std complex division agreement for nonzero divisor|PASS
+CHECK|std complex addition agreement|PASS
+CHECK|std complex subtraction agreement|PASS
+CHECK|std complex multiplication agreement|PASS
+CHECK|std complex division agreement for nonzero divisor|PASS
+CHECK|std complex addition agreement|PASS
+CHECK|std complex subtraction agreement|PASS
+CHECK|std complex multiplication agreement|PASS
+CHECK|std complex division agreement for nonzero divisor|PASS
+CHECK|std complex addition agreement|PASS
+CHECK|std complex subtraction agreement|PASS
+CHECK|std complex multiplication agreement|PASS
+CHECK|std complex division agreement for nonzero divisor|PASS
+CHECK|std complex addition agreement|PASS
+CHECK|std complex subtraction agreement|PASS
+CHECK|std complex multiplication agreement|PASS
+CHECK|std complex division agreement for nonzero divisor|PASS
+CHECK|std complex addition agreement|PASS
+CHECK|std complex subtraction agreement|PASS
+CHECK|std complex multiplication agreement|PASS
+CHECK|std complex addition agreement|PASS
+CHECK|std complex subtraction agreement|PASS
+CHECK|std complex multiplication agreement|PASS
+CHECK|std complex division agreement for nonzero divisor|PASS
+CHECK|std complex addition agreement|PASS
+CHECK|std complex subtraction agreement|PASS
+CHECK|std complex multiplication agreement|PASS
+CHECK|std complex division agreement for nonzero divisor|PASS
+CHECK|std complex addition agreement|PASS
+CHECK|std complex subtraction agreement|PASS
+CHECK|std complex multiplication agreement|PASS
+CHECK|std complex division agreement for nonzero divisor|PASS
+CHECK|std complex addition agreement|PASS
+CHECK|std complex subtraction agreement|PASS
+CHECK|std complex multiplication agreement|PASS
+CHECK|std complex division agreement for nonzero divisor|PASS
+CHECK|std complex addition agreement|PASS
+CHECK|std complex subtraction agreement|PASS
+CHECK|std complex multiplication agreement|PASS
+CHECK|std complex division agreement for nonzero divisor|PASS
+CHECK|std complex addition agreement|PASS
+CHECK|std complex subtraction agreement|PASS
+CHECK|std complex multiplication agreement|PASS
+CHECK|std complex division agreement for nonzero divisor|PASS
+CHECK|std complex addition agreement|PASS
+CHECK|std complex subtraction agreement|PASS
+CHECK|std complex multiplication agreement|PASS
+CHECK|std complex division agreement for nonzero divisor|PASS
+CHECK|std complex addition agreement|PASS
+CHECK|std complex subtraction agreement|PASS
+CHECK|std complex multiplication agreement|PASS
+CHECK|std complex addition agreement|PASS
+CHECK|std complex subtraction agreement|PASS
+CHECK|std complex multiplication agreement|PASS
+CHECK|std complex division agreement for nonzero divisor|PASS
+CHECK|std complex addition agreement|PASS
+CHECK|std complex subtraction agreement|PASS
+CHECK|std complex multiplication agreement|PASS
+CHECK|std complex division agreement for nonzero divisor|PASS
+CHECK|std complex addition agreement|PASS
+CHECK|std complex subtraction agreement|PASS
+CHECK|std complex multiplication agreement|PASS
+CHECK|std complex division agreement for nonzero divisor|PASS
+CHECK|std complex addition agreement|PASS
+CHECK|std complex subtraction agreement|PASS
+CHECK|std complex multiplication agreement|PASS
+CHECK|std complex division agreement for nonzero divisor|PASS
+CHECK|std complex addition agreement|PASS
+CHECK|std complex subtraction agreement|PASS
+CHECK|std complex multiplication agreement|PASS
+CHECK|std complex division agreement for nonzero divisor|PASS
+CHECK|std complex addition agreement|PASS
+CHECK|std complex subtraction agreement|PASS
+CHECK|std complex multiplication agreement|PASS
+CHECK|std complex division agreement for nonzero divisor|PASS
+CHECK|std complex addition agreement|PASS
+CHECK|std complex subtraction agreement|PASS
+CHECK|std complex multiplication agreement|PASS
+CHECK|std complex division agreement for nonzero divisor|PASS
+CHECK|std complex addition agreement|PASS
+CHECK|std complex subtraction agreement|PASS
+CHECK|std complex multiplication agreement|PASS
+CHECK|std complex addition agreement|PASS
+CHECK|std complex subtraction agreement|PASS
+CHECK|std complex multiplication agreement|PASS
+CHECK|std complex division agreement for nonzero divisor|PASS
+CHECK|std complex addition agreement|PASS
+CHECK|std complex subtraction agreement|PASS
+CHECK|std complex multiplication agreement|PASS
+CHECK|std complex division agreement for nonzero divisor|PASS
+CHECK|std complex addition agreement|PASS
+CHECK|std complex subtraction agreement|PASS
+CHECK|std complex multiplication agreement|PASS
+CHECK|std complex division agreement for nonzero divisor|PASS
+CHECK|std complex addition agreement|PASS
+CHECK|std complex subtraction agreement|PASS
+CHECK|std complex multiplication agreement|PASS
+CHECK|std complex division agreement for nonzero divisor|PASS
+CHECK|std complex addition agreement|PASS
+CHECK|std complex subtraction agreement|PASS
+CHECK|std complex multiplication agreement|PASS
+CHECK|std complex division agreement for nonzero divisor|PASS
+CHECK|std complex addition agreement|PASS
+CHECK|std complex subtraction agreement|PASS
+CHECK|std complex multiplication agreement|PASS
+CHECK|std complex division agreement for nonzero divisor|PASS
+CHECK|std complex addition agreement|PASS
+CHECK|std complex subtraction agreement|PASS
+CHECK|std complex multiplication agreement|PASS
+CHECK|std complex division agreement for nonzero divisor|PASS
+CHECK|scaled division avoids huge denominator square overflow|PASS
+CHECK|scaled division avoids tiny denominator square underflow|PASS
+CHECK|nonfinite input unrepresentable product and singular/empty parallel cases|PASS
+CHECK|full parallel RLC agrees with standard library alternative|PASS
+CHECK|nonfinite physical parameters rejected|PASS
+TEST_COUNT 253

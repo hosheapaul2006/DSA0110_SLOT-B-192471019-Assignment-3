@@ -24,7 +24,7 @@ Alternative contiguous block pseudocode: allocate char[R*C]{}; access block[r*C+
 
 The main event constructs first and dies last. The nested event dies at block exit. The heap event dies exactly at explicit delete, not when its pointer variable goes out of scope. Constructor/destructor messages and closing counts are actual output. A destructor has a fixed no-argument special-member signature and cannot be overloaded by differing argument lists.
 
-proper_delete.cpp releases a heap event. missing_delete.cpp intentionally loses a heap owner in an isolated noinline function so LeakSanitizer can diagnose the unreachable object and its owned arrays. mismatched_delete.cpp deliberately pairs new[] with scalar delete; both GCC's warning and the sanitizer's actual mismatch diagnostic are retained separately. The unsafe programs are never normal online demonstrations. delete destroys/deallocates a single object; delete[] handles an array and must match the allocation form.
+proper_delete.cpp releases a heap event. missing_delete.cpp intentionally loses a heap owner in a noinline function on a worker thread that is joined before exit, so completed-thread stack/register roots no longer retain the allocation. The first function-only attempt had no leak report; it is preserved and investigated in Reference/sanitizer_experiment_notes.md. The revised actual run diagnosed102 leaked bytes/four allocations. mismatched_delete.cpp deliberately pairs new[] with scalar delete; both GCC's warning and the sanitizer's actual mismatch diagnostic are retained separately. The unsafe programs are never normal online demonstrations. delete destroys/deallocates a single object; delete[] handles an array and must match the allocation form.
 
 ## Logger prediction
 

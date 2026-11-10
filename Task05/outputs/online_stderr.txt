@@ -1,0 +1,12 @@
+CHECK|postfix old value and prefix updated value|PASS
+CHECK|earlier later and identical timestamps|PASS
+CHECK|minute rollover|PASS
+CHECK|hour rollover formatting|PASS
+CHECK|mutable and const subscript access|PASS
+CHECK|const playlist returns const reference|PASS
+CHECK|negative or size-equal index rejected|PASS
+CHECK|negative or size-equal index rejected|PASS
+CHECK|empty playlist handled without invalid access|PASS
+CHECK|negative playback time rejected|PASS
+CHECK|timer overflow leaves state unchanged|PASS
+TEST_COUNT 11

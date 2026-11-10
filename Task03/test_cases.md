@@ -11,8 +11,8 @@
 | 7 | Negative dimensions/indices | Exceptions | Checked | PASS |
 | 8 | Copy traits | Copy construction/assignment disabled | Checked | PASS |
 | 9 | Logger | Exact precommitted output including final space/no newline | Matched | PASS |
-| 10 | Three required seat-map sizes | Actual requested payload,pointer bytes and allocation counts; all cells touched | memory_actual.txt | PENDING |
-| 11 | Proper heap delete | Open/close messages | Executed locally; ASan pending | PENDING |
-| 12 | Missing delete and new[]/delete mismatch | Actual leak/mismatch sanitizer reports | Isolated sources compiled; remote execution pending | PENDING |
+| 10 | Three required seat-map sizes | Actual requested payload,pointer bytes and allocation counts; all cells touched | memory_actual.txt; payloads200/20000/2000000 bytes plus80/800/8000 pointer bytes | PASS |
+| 11 | Proper heap delete | Open/close messages | Executed locally and clean under Ubuntu ASan/LSan | PASS |
+| 12 | Missing delete and new[]/delete mismatch | Actual leak/mismatch sanitizer reports | Actual102-byte/four-allocation leak and alloc-dealloc-mismatch reports | PASS |
 
-Process resident memory is measured separately from requested allocation bytes. Sanitizer statuses are finalized only after the remote experiment.
+Process resident memory is measured separately from requested allocation bytes. Sanitizer statuses reflect the actual successful remote experiment; the first no-report leak attempt is preserved separately.

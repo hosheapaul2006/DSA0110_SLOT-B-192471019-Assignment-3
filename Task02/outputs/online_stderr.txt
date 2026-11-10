@@ -1,0 +1,10 @@
+CHECK|copies own independent medicine arrays|PASS
+CHECK|copied medicine changes do not alter original|PASS
+CHECK|pass-by-value modification is independent|PASS
+CHECK|const-reference reads original|PASS
+CHECK|value makes one copy; const reference makes none|PASS
+CHECK|self-assignment preserves data|PASS
+CHECK|empty copy construction and assignment|PASS
+CHECK|negative count and empty index rejected|PASS
+CHECK|vector Rule-of-Zero copy independence|PASS
+TEST_COUNT 9

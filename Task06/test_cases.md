@@ -15,6 +15,6 @@
 | 11 | Copy-plus-equals alternative | Same chain content | Checked | PASS |
 | 12 | Instrumented chain,normal/no-elide builds | Correct content; actual counters recorded without assumed counts | Both builds executed | PASS |
 | 13 |100000 concatenations,3 modes,5 trials,2 flags | Same checksum and sampled full content |30 actual trial checks | PASS |
-| 14 | Correct owner/copy experiments under ASan/LSan | Exit0,no findings | Ubuntu evidence pending | PENDING |
+| 14 | Correct owner/copy experiments under ASan/LSan | Exit0,no findings | Both correct sources exited0 with empty sanitizer stderr on Ubuntu | PASS |
 
 Local normal compilation alone is not labelled sanitizer evidence. Raw outputs and actual copy/allocation observations are retained in outputs/.

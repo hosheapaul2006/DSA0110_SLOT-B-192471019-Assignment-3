@@ -1,0 +1,43 @@
+
+=================================================================
+==2086==ERROR: LeakSanitizer: detected memory leaks
+
+Direct leak of 80 byte(s) in 1 object(s) allocated from:
+    #0 0x7f18164fe548 in operator new(unsigned long) ../../../../src/libsanitizer/asan/asan_new_delete.cpp:95
+    #1 0x55addbf2b69a in omitDelete() /home/runner/work/DSA0110_SLOT-B-192471019-Assignment-3/DSA0110_SLOT-B-192471019-Assignment-3/Task03/destructor_experiments/missing_delete.cpp:8
+    #2 0x55addbf2c9b4 in void std::__invoke_impl<void, void (*)()>(std::__invoke_other, void (*&&)()) /usr/include/c++/13/bits/invoke.h:61
+    #3 0x55addbf2c9b4 in std::__invoke_result<void (*)()>::type std::__invoke<void (*)()>(void (*&&)()) /usr/include/c++/13/bits/invoke.h:96
+    #4 0x55addbf2c9b4 in void std::thread::_Invoker<std::tuple<void (*)()> >::_M_invoke<0ul>(std::_Index_tuple<0ul>) /usr/include/c++/13/bits/std_thread.h:292
+    #5 0x55addbf2c9b4 in std::thread::_Invoker<std::tuple<void (*)()> >::operator()() /usr/include/c++/13/bits/std_thread.h:299
+    #6 0x55addbf2c9b4 in std::thread::_State_impl<std::thread::_Invoker<std::tuple<void (*)()> > >::_M_run() /usr/include/c++/13/bits/std_thread.h:244
+    #7 0x7f18160ecdb3  (/lib/x86_64-linux-gnu/libstdc++.so.6+0xecdb3) (BuildId: 753c6c8608b61d4e67be8f0c890e03e0aa046b8b)
+    #8 0x7f181645ea41 in asan_thread_start ../../../../src/libsanitizer/asan/asan_interceptors.cpp:234
+    #9 0x7f1815c9cb83  (/lib/x86_64-linux-gnu/libc.so.6+0x9cb83) (BuildId: a4a7992a8e66555c8141ab2a08a8465ff6e0ea65)
+
+Indirect leak of 16 byte(s) in 1 object(s) allocated from:
+    #0 0x7f18164fe6c8 in operator new[](unsigned long) ../../../../src/libsanitizer/asan/asan_new_delete.cpp:98
+    #1 0x55addbf2bc03 in Auditorium::Auditorium(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, int, int, bool) /home/runner/work/DSA0110_SLOT-B-192471019-Assignment-3/DSA0110_SLOT-B-192471019-Assignment-3/Task03/destructor_experiments/../auditorium.hpp:25
+    #2 0x55addbf2bc03 in omitDelete() /home/runner/work/DSA0110_SLOT-B-192471019-Assignment-3/DSA0110_SLOT-B-192471019-Assignment-3/Task03/destructor_experiments/missing_delete.cpp:8
+    #3 0x55addbf2c9b4 in void std::__invoke_impl<void, void (*)()>(std::__invoke_other, void (*&&)()) /usr/include/c++/13/bits/invoke.h:61
+    #4 0x55addbf2c9b4 in std::__invoke_result<void (*)()>::type std::__invoke<void (*)()>(void (*&&)()) /usr/include/c++/13/bits/invoke.h:96
+    #5 0x55addbf2c9b4 in void std::thread::_Invoker<std::tuple<void (*)()> >::_M_invoke<0ul>(std::_Index_tuple<0ul>) /usr/include/c++/13/bits/std_thread.h:292
+    #6 0x55addbf2c9b4 in std::thread::_Invoker<std::tuple<void (*)()> >::operator()() /usr/include/c++/13/bits/std_thread.h:299
+    #7 0x55addbf2c9b4 in std::thread::_State_impl<std::thread::_Invoker<std::tuple<void (*)()> > >::_M_run() /usr/include/c++/13/bits/std_thread.h:244
+    #8 0x7f18160ecdb3  (/lib/x86_64-linux-gnu/libstdc++.so.6+0xecdb3) (BuildId: 753c6c8608b61d4e67be8f0c890e03e0aa046b8b)
+    #9 0x7f181645ea41 in asan_thread_start ../../../../src/libsanitizer/asan/asan_interceptors.cpp:234
+    #10 0x7f1815c9cb83  (/lib/x86_64-linux-gnu/libc.so.6+0x9cb83) (BuildId: a4a7992a8e66555c8141ab2a08a8465ff6e0ea65)
+
+Indirect leak of 6 byte(s) in 2 object(s) allocated from:
+    #0 0x7f18164fe6c8 in operator new[](unsigned long) ../../../../src/libsanitizer/asan/asan_new_delete.cpp:98
+    #1 0x55addbf2bec7 in Auditorium::Auditorium(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, int, int, bool) /home/runner/work/DSA0110_SLOT-B-192471019-Assignment-3/DSA0110_SLOT-B-192471019-Assignment-3/Task03/destructor_experiments/../auditorium.hpp:26
+    #2 0x55addbf2bec7 in omitDelete() /home/runner/work/DSA0110_SLOT-B-192471019-Assignment-3/DSA0110_SLOT-B-192471019-Assignment-3/Task03/destructor_experiments/missing_delete.cpp:8
+    #3 0x55addbf2c9b4 in void std::__invoke_impl<void, void (*)()>(std::__invoke_other, void (*&&)()) /usr/include/c++/13/bits/invoke.h:61
+    #4 0x55addbf2c9b4 in std::__invoke_result<void (*)()>::type std::__invoke<void (*)()>(void (*&&)()) /usr/include/c++/13/bits/invoke.h:96
+    #5 0x55addbf2c9b4 in void std::thread::_Invoker<std::tuple<void (*)()> >::_M_invoke<0ul>(std::_Index_tuple<0ul>) /usr/include/c++/13/bits/std_thread.h:292
+    #6 0x55addbf2c9b4 in std::thread::_Invoker<std::tuple<void (*)()> >::operator()() /usr/include/c++/13/bits/std_thread.h:299
+    #7 0x55addbf2c9b4 in std::thread::_State_impl<std::thread::_Invoker<std::tuple<void (*)()> > >::_M_run() /usr/include/c++/13/bits/std_thread.h:244
+    #8 0x7f18160ecdb3  (/lib/x86_64-linux-gnu/libstdc++.so.6+0xecdb3) (BuildId: 753c6c8608b61d4e67be8f0c890e03e0aa046b8b)
+    #9 0x7f181645ea41 in asan_thread_start ../../../../src/libsanitizer/asan/asan_interceptors.cpp:234
+    #10 0x7f1815c9cb83  (/lib/x86_64-linux-gnu/libc.so.6+0x9cb83) (BuildId: a4a7992a8e66555c8141ab2a08a8465ff6e0ea65)
+
+SUMMARY: AddressSanitizer: 102 byte(s) leaked in 4 allocation(s).

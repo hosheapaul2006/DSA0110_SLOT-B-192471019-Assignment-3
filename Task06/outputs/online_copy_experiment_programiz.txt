@@ -1,0 +1,3 @@
+a+b+c=ABC; observed copy constructors=0; observed allocations=2
+copy-plus-equals=ABC; observed copy constructors=3; observed allocations=5
+

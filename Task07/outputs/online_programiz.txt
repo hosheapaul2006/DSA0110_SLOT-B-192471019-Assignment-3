@@ -1,0 +1,8 @@
+R=100.000000000 ohm; L=0.100000000 H; C=0.000100000 F; f=50.000000000 Hz
+Resistor: 100.000000000 + j0.000000000 ohm
+Inductor: 0.000000000 + j31.415926536 ohm
+Capacitor: 0.000000000 - j31.830988618 ohm
+Series RLC: 100.000000000 - j0.415062082 ohm; magnitude=100.000861379
+Parallel RLC: 99.828019749 + j4.143482577 ohm; magnitude=99.913972871
+Rejected: division by zero impedance
+

@@ -1,0 +1,6 @@
+Title="" Author="" Copies=0
+Title="Donated Algorithms" Author="Donated" Copies=1
+Title="C++ Foundations" Author="A. Reader" Copies=4
+Rejected: negative copy count
+Book object bytes=228
+

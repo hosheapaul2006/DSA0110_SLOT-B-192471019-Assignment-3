@@ -1,0 +1,11 @@
+CHECK|book valid seats at both boundaries|PASS
+CHECK|duplicate booking rejected|PASS
+CHECK|cancellation and duplicate cancellation|PASS
+CHECK|booking statistics after cancellation|PASS
+CHECK|nested event booking|PASS
+CHECK|heap event booking|PASS
+CHECK|zero rows allocate nothing|PASS
+CHECK|booking a zero-row map rejected|PASS
+CHECK|negative dimension and negative seat rejected|PASS
+CHECK|owning auditorium is noncopyable|PASS
+TEST_COUNT 10

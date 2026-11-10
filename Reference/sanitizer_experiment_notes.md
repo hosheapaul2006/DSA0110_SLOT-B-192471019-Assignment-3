@@ -13,3 +13,5 @@ the leaked event in a worker thread and joins it before process exit, removing
 that completed thread's stack/register roots. It still omits delete and does not
 suppress errors or alter the correct owning class. The later real run determines
 whether the expected diagnostic is actually observed; do not assume its result.
+
+Run2: commite17e99c,GitHub Actions run42848528926 succeeded. All seven correct cases exited0 without sanitizer stderr. Four negative cases exited1 with their expected reports; the revised missing-delete test reported102 bytes in four allocations. These are observed outcomes. Conservative root retention is a plausible explanation of the first no-report result, not a proven diagnosis of its exact register/stack state.

@@ -1,0 +1,4 @@
+Message=Hello world
+Copy after independent edit=Hello!; original=Hello
+Long copy characters=100000
+

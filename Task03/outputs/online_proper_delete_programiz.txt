@@ -1,0 +1,3 @@
+Open Released (2x3)
+Close Released: occupied=1, bookings=1, cancellations=0
+

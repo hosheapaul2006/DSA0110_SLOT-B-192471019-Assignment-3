@@ -1,0 +1,6 @@
+a=t++: 00:59:58; b=++t: 01:00:00; t=01:00:00
+Rejected index -1: playlist index out of range
+Rejected index 2: playlist index out of range
+Playing Opening (edited) at 00:00:58
+Playing Finale at 00:01:00
+

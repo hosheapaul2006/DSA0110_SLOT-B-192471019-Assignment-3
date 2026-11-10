@@ -1,0 +1,4 @@
+Arithmetic comparisons with std::complex: 248
+Scaled division and circuit boundary checks completed
+sizeof(custom Complex)=16; sizeof(std::complex<double>)=16
+

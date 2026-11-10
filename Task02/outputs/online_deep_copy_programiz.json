@@ -1,0 +1,8 @@
+{
+  "source": "Task02/online_deep_copy.cpp",
+  "sha256": "30ebe7406eab8c1a748bb6d58436cec7c0b88a4d302723d00d7c98be3fc0182a",
+  "timestamp_utc": "2026-11-10T15:55:04.867Z",
+  "url": "https://www.programiz.com/cpp-programming/online-compiler/",
+  "status": "PASS",
+  "comparison": "Exact local stdout prefix; only trailing Programiz whitespace/banner allowed"
+}

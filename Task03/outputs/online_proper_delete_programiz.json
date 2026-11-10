@@ -1,0 +1,8 @@
+{
+  "source": "Task03/online_proper_delete.cpp",
+  "sha256": "321e7bc01a98369e6dddd406bc982acdd85ffcbe2980c94e6426268273228620",
+  "timestamp_utc": "2026-11-10T15:55:43.206Z",
+  "url": "https://www.programiz.com/cpp-programming/online-compiler/",
+  "status": "PASS",
+  "comparison": "Exact local stdout prefix; only trailing Programiz whitespace/banner allowed"
+}

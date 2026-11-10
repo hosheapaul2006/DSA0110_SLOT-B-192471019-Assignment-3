@@ -1,0 +1,30 @@
+{
+  "source": "Task03/main.cpp",
+  "sha256": "ca9772b6125bd411b6c374a3cd39fce1fb77bfe6ff28e93e69c9294f47de05de",
+  "compile_command": [
+    "g++",
+    "-std=c++17",
+    "-Wall",
+    "-Wextra",
+    "-Wpedantic",
+    "-g",
+    "-O1",
+    "-fsanitize=address",
+    "-fno-omit-frame-pointer",
+    "/home/runner/work/DSA0110_SLOT-B-192471019-Assignment-3/DSA0110_SLOT-B-192471019-Assignment-3/Task03/main.cpp",
+    "-o",
+    "/home/runner/work/DSA0110_SLOT-B-192471019-Assignment-3/DSA0110_SLOT-B-192471019-Assignment-3/build/sanitizer/Task03_main"
+  ],
+  "compile_exit": 0,
+  "timestamp_utc": "2026-11-10T15:50:24.342468+00:00",
+  "expected_error_pattern": null,
+  "runner": "GitHub Actions Ubuntu 24.04",
+  "commit": "e17e99ccef270679301186df5b61534898ada101",
+  "run_url": "https://github.com/hosheapaul2006/DSA0110_SLOT-B-192471019-Assignment-3/actions/runs/42848528926",
+  "run_command": [
+    "/home/runner/work/DSA0110_SLOT-B-192471019-Assignment-3/DSA0110_SLOT-B-192471019-Assignment-3/build/sanitizer/Task03_main"
+  ],
+  "run_exit": 0,
+  "ASAN_OPTIONS": "detect_leaks=1:halt_on_error=1:alloc_dealloc_mismatch=1",
+  "status": "PASS"
+}

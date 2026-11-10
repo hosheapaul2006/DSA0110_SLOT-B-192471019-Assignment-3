@@ -1,0 +1,9 @@
+CHECK|default empty record|PASS
+CHECK|title-only donation|PASS
+CHECK|full constructor|PASS
+CHECK|default array construction|PASS
+CHECK|negative copies rejected|PASS
+CHECK|zero copies valid|PASS
+CHECK|maximum fixed text lengths|PASS
+CHECK|overlong fields rejected without truncation|PASS
+TEST_COUNT 8

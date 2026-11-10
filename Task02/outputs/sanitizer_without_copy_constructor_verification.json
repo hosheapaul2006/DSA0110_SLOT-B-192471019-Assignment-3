@@ -1,0 +1,30 @@
+{
+  "source": "Task02/without_copy_constructor.cpp",
+  "sha256": "cb5b6f1e0919a5575069406360b0dffd7f2fc46931be68eb7a3eb704795eea4f",
+  "compile_command": [
+    "g++",
+    "-std=c++17",
+    "-Wall",
+    "-Wextra",
+    "-Wpedantic",
+    "-g",
+    "-O1",
+    "-fsanitize=address",
+    "-fno-omit-frame-pointer",
+    "/home/runner/work/DSA0110_SLOT-B-192471019-Assignment-3/DSA0110_SLOT-B-192471019-Assignment-3/Task02/without_copy_constructor.cpp",
+    "-o",
+    "/home/runner/work/DSA0110_SLOT-B-192471019-Assignment-3/DSA0110_SLOT-B-192471019-Assignment-3/build/sanitizer/Task02_without_copy_constructor"
+  ],
+  "compile_exit": 0,
+  "timestamp_utc": "2026-11-10T15:50:23.959435+00:00",
+  "expected_error_pattern": "heap-use-after-free|double-free|attempting double-free",
+  "runner": "GitHub Actions Ubuntu 24.04",
+  "commit": "e17e99ccef270679301186df5b61534898ada101",
+  "run_url": "https://github.com/hosheapaul2006/DSA0110_SLOT-B-192471019-Assignment-3/actions/runs/42848528926",
+  "run_command": [
+    "/home/runner/work/DSA0110_SLOT-B-192471019-Assignment-3/DSA0110_SLOT-B-192471019-Assignment-3/build/sanitizer/Task02_without_copy_constructor"
+  ],
+  "run_exit": 1,
+  "ASAN_OPTIONS": "detect_leaks=1:halt_on_error=1:alloc_dealloc_mismatch=1",
+  "status": "PASS"
+}

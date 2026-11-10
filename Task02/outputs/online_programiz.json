@@ -1,0 +1,8 @@
+{
+  "source": "Task02/online.cpp",
+  "sha256": "f21f5204fcf10f9d5f5437d12eecfce0f0b0a5187364087d172ab428b761d74f",
+  "timestamp_utc": "2026-11-10T16:00:55.007Z",
+  "url": "https://www.programiz.com/cpp-programming/online-compiler/",
+  "status": "PASS",
+  "comparison": "Exact local stdout prefix; only trailing Programiz whitespace/banner allowed"
+}

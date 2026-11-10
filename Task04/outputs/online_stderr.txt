@@ -1,0 +1,15 @@
+CHECK|operator and named addition agree|PASS
+CHECK|paise carry into rupees|PASS
+CHECK|negative balances and comparison|PASS
+CHECK|plus-equals returns updated self reference|PASS
+CHECK|minimum signed value formats without absolute-value overflow|PASS
+CHECK|signed decimal stream input|PASS
+CHECK|invalid input leaves target unchanged and sets failbit|PASS
+CHECK|invalid input leaves target unchanged and sets failbit|PASS
+CHECK|invalid input leaves target unchanged and sets failbit|PASS
+CHECK|invalid input leaves target unchanged and sets failbit|PASS
+CHECK|invalid input leaves target unchanged and sets failbit|PASS
+CHECK|minimum signed input accepted|PASS
+CHECK|arithmetic overflow rejected without changing accumulator|PASS
+CHECK|stream fill restored after Money output|PASS
+TEST_COUNT 14

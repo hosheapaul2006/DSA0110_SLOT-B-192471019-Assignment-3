@@ -1,0 +1,1707 @@
+{
+  "timestamp_utc": "2026-11-10T16:09:00.045911+00:00",
+  "base_successfully_compiled_programs": 28,
+  "compiled_source_files_including_online": 39,
+  "normal_executed_source_files": 35,
+  "normal_build_run_configurations": 41,
+  "intentional_compiler_error_sources": 2,
+  "recorded_local_check_evaluations": 838,
+  "base_check_evaluations": 503,
+  "sanitizer_cases": 11,
+  "sanitizer_clean_cases": 7,
+  "sanitizer_expected_error_cases": 4,
+  "programiz_programs": 15,
+  "genuine_screenshots": 29,
+  "audit_checks": [
+    {
+      "requirement": "Task01/constructor_experiments/explicit_rejected.cpp current source hash",
+      "status": "PASS",
+      "evidence": "Task01/outputs/constructor_experiments_explicit_rejected_verification.json"
+    },
+    {
+      "requirement": "Task01/constructor_experiments/explicit_rejected.cpp expected error",
+      "status": "PASS",
+      "evidence": "Task01\\outputs\\constructor_experiments_explicit_rejected_verification.json"
+    },
+    {
+      "requirement": "Task01/constructor_experiments/implicit.cpp current source hash",
+      "status": "PASS",
+      "evidence": "Task01/outputs/constructor_experiments_implicit_verification.json"
+    },
+    {
+      "requirement": "Task01/constructor_experiments/implicit.cpp compilation",
+      "status": "PASS",
+      "evidence": "Task01\\outputs\\constructor_experiments_implicit_verification.json"
+    },
+    {
+      "requirement": "Task01/constructor_experiments/implicit.cpp execution",
+      "status": "PASS",
+      "evidence": "Task01\\outputs\\constructor_experiments_implicit_verification.json"
+    },
+    {
+      "requirement": "Task01/constructor_experiments/missing_default.cpp current source hash",
+      "status": "PASS",
+      "evidence": "Task01/outputs/constructor_experiments_missing_default_verification.json"
+    },
+    {
+      "requirement": "Task01/constructor_experiments/missing_default.cpp expected error",
+      "status": "PASS",
+      "evidence": "Task01\\outputs\\constructor_experiments_missing_default_verification.json"
+    },
+    {
+      "requirement": "Task01/constructor_experiments/reorder.cpp current source hash",
+      "status": "PASS",
+      "evidence": "Task01/outputs/constructor_experiments_reorder_verification.json"
+    },
+    {
+      "requirement": "Task01/constructor_experiments/reorder.cpp compilation",
+      "status": "PASS",
+      "evidence": "Task01\\outputs\\constructor_experiments_reorder_verification.json"
+    },
+    {
+      "requirement": "Task01/constructor_experiments/reorder.cpp execution",
+      "status": "PASS",
+      "evidence": "Task01\\outputs\\constructor_experiments_reorder_verification.json"
+    },
+    {
+      "requirement": "Task01/main.cpp current source hash",
+      "status": "PASS",
+      "evidence": "Task01/outputs/main_verification.json"
+    },
+    {
+      "requirement": "Task01/main.cpp compilation",
+      "status": "PASS",
+      "evidence": "Task01\\outputs\\main_verification.json"
+    },
+    {
+      "requirement": "Task01/main.cpp execution",
+      "status": "PASS",
+      "evidence": "Task01\\outputs\\main_verification.json"
+    },
+    {
+      "requirement": "Task01/main.cpp header Task01/book.hpp",
+      "status": "PASS",
+      "evidence": "Included header hash matches tested version"
+    },
+    {
+      "requirement": "Task01/online.cpp current source hash",
+      "status": "PASS",
+      "evidence": "Task01/outputs/online_verification.json"
+    },
+    {
+      "requirement": "Task01/online.cpp compilation",
+      "status": "PASS",
+      "evidence": "Task01\\outputs\\online_verification.json"
+    },
+    {
+      "requirement": "Task01/online.cpp execution",
+      "status": "PASS",
+      "evidence": "Task01\\outputs\\online_verification.json"
+    },
+    {
+      "requirement": "Task02/benchmark.cpp current source hash",
+      "status": "PASS",
+      "evidence": "Task02/outputs/benchmark_O0_verification.json"
+    },
+    {
+      "requirement": "Task02/benchmark.cpp compilation",
+      "status": "PASS",
+      "evidence": "Task02\\outputs\\benchmark_O0_verification.json"
+    },
+    {
+      "requirement": "Task02/benchmark.cpp execution",
+      "status": "PASS",
+      "evidence": "Task02\\outputs\\benchmark_O0_verification.json"
+    },
+    {
+      "requirement": "Task02/benchmark.cpp header Task02/prescription.hpp",
+      "status": "PASS",
+      "evidence": "Included header hash matches tested version"
+    },
+    {
+      "requirement": "Task02/benchmark.cpp current source hash",
+      "status": "PASS",
+      "evidence": "Task02/outputs/benchmark_O2_verification.json"
+    },
+    {
+      "requirement": "Task02/benchmark.cpp compilation",
+      "status": "PASS",
+      "evidence": "Task02\\outputs\\benchmark_O2_verification.json"
+    },
+    {
+      "requirement": "Task02/benchmark.cpp execution",
+      "status": "PASS",
+      "evidence": "Task02\\outputs\\benchmark_O2_verification.json"
+    },
+    {
+      "requirement": "Task02/benchmark.cpp header Task02/prescription.hpp",
+      "status": "PASS",
+      "evidence": "Included header hash matches tested version"
+    },
+    {
+      "requirement": "Task02/complete_code.cpp current source hash",
+      "status": "PASS",
+      "evidence": "Task02/outputs/complete_code_verification.json"
+    },
+    {
+      "requirement": "Task02/complete_code.cpp compilation",
+      "status": "PASS",
+      "evidence": "Task02\\outputs\\complete_code_verification.json"
+    },
+    {
+      "requirement": "Task02/complete_code.cpp execution",
+      "status": "PASS",
+      "evidence": "Task02\\outputs\\complete_code_verification.json"
+    },
+    {
+      "requirement": "Task02/deep_copy.cpp current source hash",
+      "status": "PASS",
+      "evidence": "Task02/outputs/deep_copy_verification.json"
+    },
+    {
+      "requirement": "Task02/deep_copy.cpp compilation",
+      "status": "PASS",
+      "evidence": "Task02\\outputs\\deep_copy_verification.json"
+    },
+    {
+      "requirement": "Task02/deep_copy.cpp execution",
+      "status": "PASS",
+      "evidence": "Task02\\outputs\\deep_copy_verification.json"
+    },
+    {
+      "requirement": "Task02/deep_copy.cpp header Task02/prescription.hpp",
+      "status": "PASS",
+      "evidence": "Included header hash matches tested version"
+    },
+    {
+      "requirement": "Task02/main.cpp current source hash",
+      "status": "PASS",
+      "evidence": "Task02/outputs/main_verification.json"
+    },
+    {
+      "requirement": "Task02/main.cpp compilation",
+      "status": "PASS",
+      "evidence": "Task02\\outputs\\main_verification.json"
+    },
+    {
+      "requirement": "Task02/main.cpp execution",
+      "status": "PASS",
+      "evidence": "Task02\\outputs\\main_verification.json"
+    },
+    {
+      "requirement": "Task02/main.cpp header Task02/prescription.hpp",
+      "status": "PASS",
+      "evidence": "Included header hash matches tested version"
+    },
+    {
+      "requirement": "Task02/online_deep_copy.cpp current source hash",
+      "status": "PASS",
+      "evidence": "Task02/outputs/online_deep_copy_verification.json"
+    },
+    {
+      "requirement": "Task02/online_deep_copy.cpp compilation",
+      "status": "PASS",
+      "evidence": "Task02\\outputs\\online_deep_copy_verification.json"
+    },
+    {
+      "requirement": "Task02/online_deep_copy.cpp execution",
+      "status": "PASS",
+      "evidence": "Task02\\outputs\\online_deep_copy_verification.json"
+    },
+    {
+      "requirement": "Task02/online.cpp current source hash",
+      "status": "PASS",
+      "evidence": "Task02/outputs/online_verification.json"
+    },
+    {
+      "requirement": "Task02/online.cpp compilation",
+      "status": "PASS",
+      "evidence": "Task02\\outputs\\online_verification.json"
+    },
+    {
+      "requirement": "Task02/online.cpp execution",
+      "status": "PASS",
+      "evidence": "Task02\\outputs\\online_verification.json"
+    },
+    {
+      "requirement": "Task02/shallow_copy.cpp current source hash",
+      "status": "PASS",
+      "evidence": "Task02/outputs/shallow_copy_verification.json"
+    },
+    {
+      "requirement": "Task02/shallow_copy.cpp compilation",
+      "status": "PASS",
+      "evidence": "Task02\\outputs\\shallow_copy_verification.json"
+    },
+    {
+      "requirement": "Task02/without_copy_constructor.cpp current source hash",
+      "status": "PASS",
+      "evidence": "Task02/outputs/without_copy_constructor_verification.json"
+    },
+    {
+      "requirement": "Task02/without_copy_constructor.cpp compilation",
+      "status": "PASS",
+      "evidence": "Task02\\outputs\\without_copy_constructor_verification.json"
+    },
+    {
+      "requirement": "Task03/destructor_experiments/mismatched_delete.cpp current source hash",
+      "status": "PASS",
+      "evidence": "Task03/outputs/destructor_experiments_mismatched_delete_verification.json"
+    },
+    {
+      "requirement": "Task03/destructor_experiments/mismatched_delete.cpp compilation",
+      "status": "PASS",
+      "evidence": "Task03\\outputs\\destructor_experiments_mismatched_delete_verification.json"
+    },
+    {
+      "requirement": "Task03/destructor_experiments/missing_delete.cpp current source hash",
+      "status": "PASS",
+      "evidence": "Task03/outputs/destructor_experiments_missing_delete_verification.json"
+    },
+    {
+      "requirement": "Task03/destructor_experiments/missing_delete.cpp compilation",
+      "status": "PASS",
+      "evidence": "Task03\\outputs\\destructor_experiments_missing_delete_verification.json"
+    },
+    {
+      "requirement": "Task03/destructor_experiments/proper_delete.cpp current source hash",
+      "status": "PASS",
+      "evidence": "Task03/outputs/destructor_experiments_proper_delete_verification.json"
+    },
+    {
+      "requirement": "Task03/destructor_experiments/proper_delete.cpp compilation",
+      "status": "PASS",
+      "evidence": "Task03\\outputs\\destructor_experiments_proper_delete_verification.json"
+    },
+    {
+      "requirement": "Task03/destructor_experiments/proper_delete.cpp execution",
+      "status": "PASS",
+      "evidence": "Task03\\outputs\\destructor_experiments_proper_delete_verification.json"
+    },
+    {
+      "requirement": "Task03/main.cpp current source hash",
+      "status": "PASS",
+      "evidence": "Task03/outputs/main_verification.json"
+    },
+    {
+      "requirement": "Task03/main.cpp compilation",
+      "status": "PASS",
+      "evidence": "Task03\\outputs\\main_verification.json"
+    },
+    {
+      "requirement": "Task03/main.cpp execution",
+      "status": "PASS",
+      "evidence": "Task03\\outputs\\main_verification.json"
+    },
+    {
+      "requirement": "Task03/main.cpp header Task03/auditorium.hpp",
+      "status": "PASS",
+      "evidence": "Included header hash matches tested version"
+    },
+    {
+      "requirement": "Task03/memory.cpp current source hash",
+      "status": "PASS",
+      "evidence": "Task03/outputs/memory_verification.json"
+    },
+    {
+      "requirement": "Task03/memory.cpp compilation",
+      "status": "PASS",
+      "evidence": "Task03\\outputs\\memory_verification.json"
+    },
+    {
+      "requirement": "Task03/memory.cpp execution",
+      "status": "PASS",
+      "evidence": "Task03\\outputs\\memory_verification.json"
+    },
+    {
+      "requirement": "Task03/memory.cpp header Task03/auditorium.hpp",
+      "status": "PASS",
+      "evidence": "Included header hash matches tested version"
+    },
+    {
+      "requirement": "Task03/online_proper_delete.cpp current source hash",
+      "status": "PASS",
+      "evidence": "Task03/outputs/online_proper_delete_verification.json"
+    },
+    {
+      "requirement": "Task03/online_proper_delete.cpp compilation",
+      "status": "PASS",
+      "evidence": "Task03\\outputs\\online_proper_delete_verification.json"
+    },
+    {
+      "requirement": "Task03/online_proper_delete.cpp execution",
+      "status": "PASS",
+      "evidence": "Task03\\outputs\\online_proper_delete_verification.json"
+    },
+    {
+      "requirement": "Task03/online.cpp current source hash",
+      "status": "PASS",
+      "evidence": "Task03/outputs/online_verification.json"
+    },
+    {
+      "requirement": "Task03/online.cpp compilation",
+      "status": "PASS",
+      "evidence": "Task03\\outputs\\online_verification.json"
+    },
+    {
+      "requirement": "Task03/online.cpp execution",
+      "status": "PASS",
+      "evidence": "Task03\\outputs\\online_verification.json"
+    },
+    {
+      "requirement": "Task03/predict_output.cpp current source hash",
+      "status": "PASS",
+      "evidence": "Task03/outputs/predict_output_verification.json"
+    },
+    {
+      "requirement": "Task03/predict_output.cpp compilation",
+      "status": "PASS",
+      "evidence": "Task03\\outputs\\predict_output_verification.json"
+    },
+    {
+      "requirement": "Task03/predict_output.cpp execution",
+      "status": "PASS",
+      "evidence": "Task03\\outputs\\predict_output_verification.json"
+    },
+    {
+      "requirement": "Task04/benchmark.cpp current source hash",
+      "status": "PASS",
+      "evidence": "Task04/outputs/benchmark_O0_verification.json"
+    },
+    {
+      "requirement": "Task04/benchmark.cpp compilation",
+      "status": "PASS",
+      "evidence": "Task04\\outputs\\benchmark_O0_verification.json"
+    },
+    {
+      "requirement": "Task04/benchmark.cpp execution",
+      "status": "PASS",
+      "evidence": "Task04\\outputs\\benchmark_O0_verification.json"
+    },
+    {
+      "requirement": "Task04/benchmark.cpp current source hash",
+      "status": "PASS",
+      "evidence": "Task04/outputs/benchmark_O2_verification.json"
+    },
+    {
+      "requirement": "Task04/benchmark.cpp compilation",
+      "status": "PASS",
+      "evidence": "Task04\\outputs\\benchmark_O2_verification.json"
+    },
+    {
+      "requirement": "Task04/benchmark.cpp execution",
+      "status": "PASS",
+      "evidence": "Task04\\outputs\\benchmark_O2_verification.json"
+    },
+    {
+      "requirement": "Task04/complete_code.cpp current source hash",
+      "status": "PASS",
+      "evidence": "Task04/outputs/complete_code_verification.json"
+    },
+    {
+      "requirement": "Task04/complete_code.cpp compilation",
+      "status": "PASS",
+      "evidence": "Task04\\outputs\\complete_code_verification.json"
+    },
+    {
+      "requirement": "Task04/complete_code.cpp execution",
+      "status": "PASS",
+      "evidence": "Task04\\outputs\\complete_code_verification.json"
+    },
+    {
+      "requirement": "Task04/main.cpp current source hash",
+      "status": "PASS",
+      "evidence": "Task04/outputs/main_verification.json"
+    },
+    {
+      "requirement": "Task04/main.cpp compilation",
+      "status": "PASS",
+      "evidence": "Task04\\outputs\\main_verification.json"
+    },
+    {
+      "requirement": "Task04/main.cpp execution",
+      "status": "PASS",
+      "evidence": "Task04\\outputs\\main_verification.json"
+    },
+    {
+      "requirement": "Task04/main.cpp header Task04/money.hpp",
+      "status": "PASS",
+      "evidence": "Included header hash matches tested version"
+    },
+    {
+      "requirement": "Task04/online.cpp current source hash",
+      "status": "PASS",
+      "evidence": "Task04/outputs/online_verification.json"
+    },
+    {
+      "requirement": "Task04/online.cpp compilation",
+      "status": "PASS",
+      "evidence": "Task04\\outputs\\online_verification.json"
+    },
+    {
+      "requirement": "Task04/online.cpp execution",
+      "status": "PASS",
+      "evidence": "Task04\\outputs\\online_verification.json"
+    },
+    {
+      "requirement": "Task05/access_benchmark.cpp current source hash",
+      "status": "PASS",
+      "evidence": "Task05/outputs/access_benchmark_O0_verification.json"
+    },
+    {
+      "requirement": "Task05/access_benchmark.cpp compilation",
+      "status": "PASS",
+      "evidence": "Task05\\outputs\\access_benchmark_O0_verification.json"
+    },
+    {
+      "requirement": "Task05/access_benchmark.cpp execution",
+      "status": "PASS",
+      "evidence": "Task05\\outputs\\access_benchmark_O0_verification.json"
+    },
+    {
+      "requirement": "Task05/access_benchmark.cpp header Task05/playlist.hpp",
+      "status": "PASS",
+      "evidence": "Included header hash matches tested version"
+    },
+    {
+      "requirement": "Task05/access_benchmark.cpp current source hash",
+      "status": "PASS",
+      "evidence": "Task05/outputs/access_benchmark_O2_verification.json"
+    },
+    {
+      "requirement": "Task05/access_benchmark.cpp compilation",
+      "status": "PASS",
+      "evidence": "Task05\\outputs\\access_benchmark_O2_verification.json"
+    },
+    {
+      "requirement": "Task05/access_benchmark.cpp execution",
+      "status": "PASS",
+      "evidence": "Task05\\outputs\\access_benchmark_O2_verification.json"
+    },
+    {
+      "requirement": "Task05/access_benchmark.cpp header Task05/playlist.hpp",
+      "status": "PASS",
+      "evidence": "Included header hash matches tested version"
+    },
+    {
+      "requirement": "Task05/benchmark.cpp current source hash",
+      "status": "PASS",
+      "evidence": "Task05/outputs/benchmark_O0_verification.json"
+    },
+    {
+      "requirement": "Task05/benchmark.cpp compilation",
+      "status": "PASS",
+      "evidence": "Task05\\outputs\\benchmark_O0_verification.json"
+    },
+    {
+      "requirement": "Task05/benchmark.cpp execution",
+      "status": "PASS",
+      "evidence": "Task05\\outputs\\benchmark_O0_verification.json"
+    },
+    {
+      "requirement": "Task05/benchmark.cpp header Task05/playlist.hpp",
+      "status": "PASS",
+      "evidence": "Included header hash matches tested version"
+    },
+    {
+      "requirement": "Task05/benchmark.cpp current source hash",
+      "status": "PASS",
+      "evidence": "Task05/outputs/benchmark_O2_verification.json"
+    },
+    {
+      "requirement": "Task05/benchmark.cpp compilation",
+      "status": "PASS",
+      "evidence": "Task05\\outputs\\benchmark_O2_verification.json"
+    },
+    {
+      "requirement": "Task05/benchmark.cpp execution",
+      "status": "PASS",
+      "evidence": "Task05\\outputs\\benchmark_O2_verification.json"
+    },
+    {
+      "requirement": "Task05/benchmark.cpp header Task05/playlist.hpp",
+      "status": "PASS",
+      "evidence": "Included header hash matches tested version"
+    },
+    {
+      "requirement": "Task05/main.cpp current source hash",
+      "status": "PASS",
+      "evidence": "Task05/outputs/main_verification.json"
+    },
+    {
+      "requirement": "Task05/main.cpp compilation",
+      "status": "PASS",
+      "evidence": "Task05\\outputs\\main_verification.json"
+    },
+    {
+      "requirement": "Task05/main.cpp execution",
+      "status": "PASS",
+      "evidence": "Task05\\outputs\\main_verification.json"
+    },
+    {
+      "requirement": "Task05/main.cpp header Task05/playlist.hpp",
+      "status": "PASS",
+      "evidence": "Included header hash matches tested version"
+    },
+    {
+      "requirement": "Task05/online.cpp current source hash",
+      "status": "PASS",
+      "evidence": "Task05/outputs/online_verification.json"
+    },
+    {
+      "requirement": "Task05/online.cpp compilation",
+      "status": "PASS",
+      "evidence": "Task05\\outputs\\online_verification.json"
+    },
+    {
+      "requirement": "Task05/online.cpp execution",
+      "status": "PASS",
+      "evidence": "Task05\\outputs\\online_verification.json"
+    },
+    {
+      "requirement": "Task05/predict_output.cpp current source hash",
+      "status": "PASS",
+      "evidence": "Task05/outputs/predict_output_verification.json"
+    },
+    {
+      "requirement": "Task05/predict_output.cpp compilation",
+      "status": "PASS",
+      "evidence": "Task05\\outputs\\predict_output_verification.json"
+    },
+    {
+      "requirement": "Task05/predict_output.cpp execution",
+      "status": "PASS",
+      "evidence": "Task05\\outputs\\predict_output_verification.json"
+    },
+    {
+      "requirement": "Task06/benchmark.cpp current source hash",
+      "status": "PASS",
+      "evidence": "Task06/outputs/benchmark_O0_verification.json"
+    },
+    {
+      "requirement": "Task06/benchmark.cpp compilation",
+      "status": "PASS",
+      "evidence": "Task06\\outputs\\benchmark_O0_verification.json"
+    },
+    {
+      "requirement": "Task06/benchmark.cpp execution",
+      "status": "PASS",
+      "evidence": "Task06\\outputs\\benchmark_O0_verification.json"
+    },
+    {
+      "requirement": "Task06/benchmark.cpp header Task06/text.hpp",
+      "status": "PASS",
+      "evidence": "Included header hash matches tested version"
+    },
+    {
+      "requirement": "Task06/benchmark.cpp current source hash",
+      "status": "PASS",
+      "evidence": "Task06/outputs/benchmark_O2_verification.json"
+    },
+    {
+      "requirement": "Task06/benchmark.cpp compilation",
+      "status": "PASS",
+      "evidence": "Task06\\outputs\\benchmark_O2_verification.json"
+    },
+    {
+      "requirement": "Task06/benchmark.cpp execution",
+      "status": "PASS",
+      "evidence": "Task06\\outputs\\benchmark_O2_verification.json"
+    },
+    {
+      "requirement": "Task06/benchmark.cpp header Task06/text.hpp",
+      "status": "PASS",
+      "evidence": "Included header hash matches tested version"
+    },
+    {
+      "requirement": "Task06/copy_experiment.cpp current source hash",
+      "status": "PASS",
+      "evidence": "Task06/outputs/copy_experiment_no_elide_verification.json"
+    },
+    {
+      "requirement": "Task06/copy_experiment.cpp compilation",
+      "status": "PASS",
+      "evidence": "Task06\\outputs\\copy_experiment_no_elide_verification.json"
+    },
+    {
+      "requirement": "Task06/copy_experiment.cpp execution",
+      "status": "PASS",
+      "evidence": "Task06\\outputs\\copy_experiment_no_elide_verification.json"
+    },
+    {
+      "requirement": "Task06/copy_experiment.cpp header Task06/text.hpp",
+      "status": "PASS",
+      "evidence": "Included header hash matches tested version"
+    },
+    {
+      "requirement": "Task06/copy_experiment.cpp current source hash",
+      "status": "PASS",
+      "evidence": "Task06/outputs/copy_experiment_verification.json"
+    },
+    {
+      "requirement": "Task06/copy_experiment.cpp compilation",
+      "status": "PASS",
+      "evidence": "Task06\\outputs\\copy_experiment_verification.json"
+    },
+    {
+      "requirement": "Task06/copy_experiment.cpp execution",
+      "status": "PASS",
+      "evidence": "Task06\\outputs\\copy_experiment_verification.json"
+    },
+    {
+      "requirement": "Task06/copy_experiment.cpp header Task06/text.hpp",
+      "status": "PASS",
+      "evidence": "Included header hash matches tested version"
+    },
+    {
+      "requirement": "Task06/main.cpp current source hash",
+      "status": "PASS",
+      "evidence": "Task06/outputs/main_verification.json"
+    },
+    {
+      "requirement": "Task06/main.cpp compilation",
+      "status": "PASS",
+      "evidence": "Task06\\outputs\\main_verification.json"
+    },
+    {
+      "requirement": "Task06/main.cpp execution",
+      "status": "PASS",
+      "evidence": "Task06\\outputs\\main_verification.json"
+    },
+    {
+      "requirement": "Task06/main.cpp header Task06/text.hpp",
+      "status": "PASS",
+      "evidence": "Included header hash matches tested version"
+    },
+    {
+      "requirement": "Task06/online_copy_experiment.cpp current source hash",
+      "status": "PASS",
+      "evidence": "Task06/outputs/online_copy_experiment_verification.json"
+    },
+    {
+      "requirement": "Task06/online_copy_experiment.cpp compilation",
+      "status": "PASS",
+      "evidence": "Task06\\outputs\\online_copy_experiment_verification.json"
+    },
+    {
+      "requirement": "Task06/online_copy_experiment.cpp execution",
+      "status": "PASS",
+      "evidence": "Task06\\outputs\\online_copy_experiment_verification.json"
+    },
+    {
+      "requirement": "Task06/online.cpp current source hash",
+      "status": "PASS",
+      "evidence": "Task06/outputs/online_verification.json"
+    },
+    {
+      "requirement": "Task06/online.cpp compilation",
+      "status": "PASS",
+      "evidence": "Task06\\outputs\\online_verification.json"
+    },
+    {
+      "requirement": "Task06/online.cpp execution",
+      "status": "PASS",
+      "evidence": "Task06\\outputs\\online_verification.json"
+    },
+    {
+      "requirement": "Task07/hand_calculation.cpp current source hash",
+      "status": "PASS",
+      "evidence": "Task07/outputs/hand_calculation_verification.json"
+    },
+    {
+      "requirement": "Task07/hand_calculation.cpp compilation",
+      "status": "PASS",
+      "evidence": "Task07\\outputs\\hand_calculation_verification.json"
+    },
+    {
+      "requirement": "Task07/hand_calculation.cpp execution",
+      "status": "PASS",
+      "evidence": "Task07\\outputs\\hand_calculation_verification.json"
+    },
+    {
+      "requirement": "Task07/main.cpp current source hash",
+      "status": "PASS",
+      "evidence": "Task07/outputs/main_verification.json"
+    },
+    {
+      "requirement": "Task07/main.cpp compilation",
+      "status": "PASS",
+      "evidence": "Task07\\outputs\\main_verification.json"
+    },
+    {
+      "requirement": "Task07/main.cpp execution",
+      "status": "PASS",
+      "evidence": "Task07\\outputs\\main_verification.json"
+    },
+    {
+      "requirement": "Task07/main.cpp header Task07/complex.hpp",
+      "status": "PASS",
+      "evidence": "Included header hash matches tested version"
+    },
+    {
+      "requirement": "Task07/online.cpp current source hash",
+      "status": "PASS",
+      "evidence": "Task07/outputs/online_verification.json"
+    },
+    {
+      "requirement": "Task07/online.cpp compilation",
+      "status": "PASS",
+      "evidence": "Task07\\outputs\\online_verification.json"
+    },
+    {
+      "requirement": "Task07/online.cpp execution",
+      "status": "PASS",
+      "evidence": "Task07\\outputs\\online_verification.json"
+    },
+    {
+      "requirement": "Task07/online_verification.cpp current source hash",
+      "status": "PASS",
+      "evidence": "Task07/outputs/online_verification_verification.json"
+    },
+    {
+      "requirement": "Task07/online_verification.cpp compilation",
+      "status": "PASS",
+      "evidence": "Task07\\outputs\\online_verification_verification.json"
+    },
+    {
+      "requirement": "Task07/online_verification.cpp execution",
+      "status": "PASS",
+      "evidence": "Task07\\outputs\\online_verification_verification.json"
+    },
+    {
+      "requirement": "Task07/verification.cpp current source hash",
+      "status": "PASS",
+      "evidence": "Task07/outputs/verification_verification.json"
+    },
+    {
+      "requirement": "Task07/verification.cpp compilation",
+      "status": "PASS",
+      "evidence": "Task07\\outputs\\verification_verification.json"
+    },
+    {
+      "requirement": "Task07/verification.cpp execution",
+      "status": "PASS",
+      "evidence": "Task07\\outputs\\verification_verification.json"
+    },
+    {
+      "requirement": "Task07/verification.cpp header Task07/complex.hpp",
+      "status": "PASS",
+      "evidence": "Included header hash matches tested version"
+    },
+    {
+      "requirement": "Task01\\main.cpp documented compilation",
+      "status": "PASS",
+      "evidence": "Verification JSON exists"
+    },
+    {
+      "requirement": "Task01\\main.cpp no unfinished TODO",
+      "status": "PASS",
+      "evidence": "All requested source TODOs replaced"
+    },
+    {
+      "requirement": "Task01\\online.cpp documented compilation",
+      "status": "PASS",
+      "evidence": "Verification JSON exists"
+    },
+    {
+      "requirement": "Task01\\online.cpp no unfinished TODO",
+      "status": "PASS",
+      "evidence": "All requested source TODOs replaced"
+    },
+    {
+      "requirement": "Task01\\constructor_experiments\\explicit_rejected.cpp documented compilation",
+      "status": "PASS",
+      "evidence": "Verification JSON exists"
+    },
+    {
+      "requirement": "Task01\\constructor_experiments\\explicit_rejected.cpp no unfinished TODO",
+      "status": "PASS",
+      "evidence": "All requested source TODOs replaced"
+    },
+    {
+      "requirement": "Task01\\constructor_experiments\\implicit.cpp documented compilation",
+      "status": "PASS",
+      "evidence": "Verification JSON exists"
+    },
+    {
+      "requirement": "Task01\\constructor_experiments\\implicit.cpp no unfinished TODO",
+      "status": "PASS",
+      "evidence": "All requested source TODOs replaced"
+    },
+    {
+      "requirement": "Task01\\constructor_experiments\\missing_default.cpp documented compilation",
+      "status": "PASS",
+      "evidence": "Verification JSON exists"
+    },
+    {
+      "requirement": "Task01\\constructor_experiments\\missing_default.cpp no unfinished TODO",
+      "status": "PASS",
+      "evidence": "All requested source TODOs replaced"
+    },
+    {
+      "requirement": "Task01\\constructor_experiments\\reorder.cpp documented compilation",
+      "status": "PASS",
+      "evidence": "Verification JSON exists"
+    },
+    {
+      "requirement": "Task01\\constructor_experiments\\reorder.cpp no unfinished TODO",
+      "status": "PASS",
+      "evidence": "All requested source TODOs replaced"
+    },
+    {
+      "requirement": "Task02\\benchmark.cpp documented compilation",
+      "status": "PASS",
+      "evidence": "Verification JSON exists"
+    },
+    {
+      "requirement": "Task02\\benchmark.cpp no unfinished TODO",
+      "status": "PASS",
+      "evidence": "All requested source TODOs replaced"
+    },
+    {
+      "requirement": "Task02\\complete_code.cpp documented compilation",
+      "status": "PASS",
+      "evidence": "Verification JSON exists"
+    },
+    {
+      "requirement": "Task02\\complete_code.cpp no unfinished TODO",
+      "status": "PASS",
+      "evidence": "All requested source TODOs replaced"
+    },
+    {
+      "requirement": "Task02\\deep_copy.cpp documented compilation",
+      "status": "PASS",
+      "evidence": "Verification JSON exists"
+    },
+    {
+      "requirement": "Task02\\deep_copy.cpp no unfinished TODO",
+      "status": "PASS",
+      "evidence": "All requested source TODOs replaced"
+    },
+    {
+      "requirement": "Task02\\main.cpp documented compilation",
+      "status": "PASS",
+      "evidence": "Verification JSON exists"
+    },
+    {
+      "requirement": "Task02\\main.cpp no unfinished TODO",
+      "status": "PASS",
+      "evidence": "All requested source TODOs replaced"
+    },
+    {
+      "requirement": "Task02\\online.cpp documented compilation",
+      "status": "PASS",
+      "evidence": "Verification JSON exists"
+    },
+    {
+      "requirement": "Task02\\online.cpp no unfinished TODO",
+      "status": "PASS",
+      "evidence": "All requested source TODOs replaced"
+    },
+    {
+      "requirement": "Task02\\online_deep_copy.cpp documented compilation",
+      "status": "PASS",
+      "evidence": "Verification JSON exists"
+    },
+    {
+      "requirement": "Task02\\online_deep_copy.cpp no unfinished TODO",
+      "status": "PASS",
+      "evidence": "All requested source TODOs replaced"
+    },
+    {
+      "requirement": "Task02\\shallow_copy.cpp documented compilation",
+      "status": "PASS",
+      "evidence": "Verification JSON exists"
+    },
+    {
+      "requirement": "Task02\\shallow_copy.cpp no unfinished TODO",
+      "status": "PASS",
+      "evidence": "All requested source TODOs replaced"
+    },
+    {
+      "requirement": "Task02\\without_copy_constructor.cpp documented compilation",
+      "status": "PASS",
+      "evidence": "Verification JSON exists"
+    },
+    {
+      "requirement": "Task02\\without_copy_constructor.cpp no unfinished TODO",
+      "status": "PASS",
+      "evidence": "All requested source TODOs replaced"
+    },
+    {
+      "requirement": "Task03\\main.cpp documented compilation",
+      "status": "PASS",
+      "evidence": "Verification JSON exists"
+    },
+    {
+      "requirement": "Task03\\main.cpp no unfinished TODO",
+      "status": "PASS",
+      "evidence": "All requested source TODOs replaced"
+    },
+    {
+      "requirement": "Task03\\memory.cpp documented compilation",
+      "status": "PASS",
+      "evidence": "Verification JSON exists"
+    },
+    {
+      "requirement": "Task03\\memory.cpp no unfinished TODO",
+      "status": "PASS",
+      "evidence": "All requested source TODOs replaced"
+    },
+    {
+      "requirement": "Task03\\online.cpp documented compilation",
+      "status": "PASS",
+      "evidence": "Verification JSON exists"
+    },
+    {
+      "requirement": "Task03\\online.cpp no unfinished TODO",
+      "status": "PASS",
+      "evidence": "All requested source TODOs replaced"
+    },
+    {
+      "requirement": "Task03\\online_proper_delete.cpp documented compilation",
+      "status": "PASS",
+      "evidence": "Verification JSON exists"
+    },
+    {
+      "requirement": "Task03\\online_proper_delete.cpp no unfinished TODO",
+      "status": "PASS",
+      "evidence": "All requested source TODOs replaced"
+    },
+    {
+      "requirement": "Task03\\predict_output.cpp documented compilation",
+      "status": "PASS",
+      "evidence": "Verification JSON exists"
+    },
+    {
+      "requirement": "Task03\\predict_output.cpp no unfinished TODO",
+      "status": "PASS",
+      "evidence": "All requested source TODOs replaced"
+    },
+    {
+      "requirement": "Task03\\destructor_experiments\\mismatched_delete.cpp documented compilation",
+      "status": "PASS",
+      "evidence": "Verification JSON exists"
+    },
+    {
+      "requirement": "Task03\\destructor_experiments\\mismatched_delete.cpp no unfinished TODO",
+      "status": "PASS",
+      "evidence": "All requested source TODOs replaced"
+    },
+    {
+      "requirement": "Task03\\destructor_experiments\\missing_delete.cpp documented compilation",
+      "status": "PASS",
+      "evidence": "Verification JSON exists"
+    },
+    {
+      "requirement": "Task03\\destructor_experiments\\missing_delete.cpp no unfinished TODO",
+      "status": "PASS",
+      "evidence": "All requested source TODOs replaced"
+    },
+    {
+      "requirement": "Task03\\destructor_experiments\\proper_delete.cpp documented compilation",
+      "status": "PASS",
+      "evidence": "Verification JSON exists"
+    },
+    {
+      "requirement": "Task03\\destructor_experiments\\proper_delete.cpp no unfinished TODO",
+      "status": "PASS",
+      "evidence": "All requested source TODOs replaced"
+    },
+    {
+      "requirement": "Task04\\benchmark.cpp documented compilation",
+      "status": "PASS",
+      "evidence": "Verification JSON exists"
+    },
+    {
+      "requirement": "Task04\\benchmark.cpp no unfinished TODO",
+      "status": "PASS",
+      "evidence": "All requested source TODOs replaced"
+    },
+    {
+      "requirement": "Task04\\complete_code.cpp documented compilation",
+      "status": "PASS",
+      "evidence": "Verification JSON exists"
+    },
+    {
+      "requirement": "Task04\\complete_code.cpp no unfinished TODO",
+      "status": "PASS",
+      "evidence": "All requested source TODOs replaced"
+    },
+    {
+      "requirement": "Task04\\main.cpp documented compilation",
+      "status": "PASS",
+      "evidence": "Verification JSON exists"
+    },
+    {
+      "requirement": "Task04\\main.cpp no unfinished TODO",
+      "status": "PASS",
+      "evidence": "All requested source TODOs replaced"
+    },
+    {
+      "requirement": "Task04\\online.cpp documented compilation",
+      "status": "PASS",
+      "evidence": "Verification JSON exists"
+    },
+    {
+      "requirement": "Task04\\online.cpp no unfinished TODO",
+      "status": "PASS",
+      "evidence": "All requested source TODOs replaced"
+    },
+    {
+      "requirement": "Task05\\access_benchmark.cpp documented compilation",
+      "status": "PASS",
+      "evidence": "Verification JSON exists"
+    },
+    {
+      "requirement": "Task05\\access_benchmark.cpp no unfinished TODO",
+      "status": "PASS",
+      "evidence": "All requested source TODOs replaced"
+    },
+    {
+      "requirement": "Task05\\benchmark.cpp documented compilation",
+      "status": "PASS",
+      "evidence": "Verification JSON exists"
+    },
+    {
+      "requirement": "Task05\\benchmark.cpp no unfinished TODO",
+      "status": "PASS",
+      "evidence": "All requested source TODOs replaced"
+    },
+    {
+      "requirement": "Task05\\main.cpp documented compilation",
+      "status": "PASS",
+      "evidence": "Verification JSON exists"
+    },
+    {
+      "requirement": "Task05\\main.cpp no unfinished TODO",
+      "status": "PASS",
+      "evidence": "All requested source TODOs replaced"
+    },
+    {
+      "requirement": "Task05\\online.cpp documented compilation",
+      "status": "PASS",
+      "evidence": "Verification JSON exists"
+    },
+    {
+      "requirement": "Task05\\online.cpp no unfinished TODO",
+      "status": "PASS",
+      "evidence": "All requested source TODOs replaced"
+    },
+    {
+      "requirement": "Task05\\predict_output.cpp documented compilation",
+      "status": "PASS",
+      "evidence": "Verification JSON exists"
+    },
+    {
+      "requirement": "Task05\\predict_output.cpp no unfinished TODO",
+      "status": "PASS",
+      "evidence": "All requested source TODOs replaced"
+    },
+    {
+      "requirement": "Task06\\benchmark.cpp documented compilation",
+      "status": "PASS",
+      "evidence": "Verification JSON exists"
+    },
+    {
+      "requirement": "Task06\\benchmark.cpp no unfinished TODO",
+      "status": "PASS",
+      "evidence": "All requested source TODOs replaced"
+    },
+    {
+      "requirement": "Task06\\copy_experiment.cpp documented compilation",
+      "status": "PASS",
+      "evidence": "Verification JSON exists"
+    },
+    {
+      "requirement": "Task06\\copy_experiment.cpp no unfinished TODO",
+      "status": "PASS",
+      "evidence": "All requested source TODOs replaced"
+    },
+    {
+      "requirement": "Task06\\main.cpp documented compilation",
+      "status": "PASS",
+      "evidence": "Verification JSON exists"
+    },
+    {
+      "requirement": "Task06\\main.cpp no unfinished TODO",
+      "status": "PASS",
+      "evidence": "All requested source TODOs replaced"
+    },
+    {
+      "requirement": "Task06\\online.cpp documented compilation",
+      "status": "PASS",
+      "evidence": "Verification JSON exists"
+    },
+    {
+      "requirement": "Task06\\online.cpp no unfinished TODO",
+      "status": "PASS",
+      "evidence": "All requested source TODOs replaced"
+    },
+    {
+      "requirement": "Task06\\online_copy_experiment.cpp documented compilation",
+      "status": "PASS",
+      "evidence": "Verification JSON exists"
+    },
+    {
+      "requirement": "Task06\\online_copy_experiment.cpp no unfinished TODO",
+      "status": "PASS",
+      "evidence": "All requested source TODOs replaced"
+    },
+    {
+      "requirement": "Task07\\hand_calculation.cpp documented compilation",
+      "status": "PASS",
+      "evidence": "Verification JSON exists"
+    },
+    {
+      "requirement": "Task07\\hand_calculation.cpp no unfinished TODO",
+      "status": "PASS",
+      "evidence": "All requested source TODOs replaced"
+    },
+    {
+      "requirement": "Task07\\main.cpp documented compilation",
+      "status": "PASS",
+      "evidence": "Verification JSON exists"
+    },
+    {
+      "requirement": "Task07\\main.cpp no unfinished TODO",
+      "status": "PASS",
+      "evidence": "All requested source TODOs replaced"
+    },
+    {
+      "requirement": "Task07\\online.cpp documented compilation",
+      "status": "PASS",
+      "evidence": "Verification JSON exists"
+    },
+    {
+      "requirement": "Task07\\online.cpp no unfinished TODO",
+      "status": "PASS",
+      "evidence": "All requested source TODOs replaced"
+    },
+    {
+      "requirement": "Task07\\online_verification.cpp documented compilation",
+      "status": "PASS",
+      "evidence": "Verification JSON exists"
+    },
+    {
+      "requirement": "Task07\\online_verification.cpp no unfinished TODO",
+      "status": "PASS",
+      "evidence": "All requested source TODOs replaced"
+    },
+    {
+      "requirement": "Task07\\verification.cpp documented compilation",
+      "status": "PASS",
+      "evidence": "Verification JSON exists"
+    },
+    {
+      "requirement": "Task07\\verification.cpp no unfinished TODO",
+      "status": "PASS",
+      "evidence": "All requested source TODOs replaced"
+    },
+    {
+      "requirement": "Task03/prediction_before_execution.md immutable",
+      "status": "PASS",
+      "evidence": "Matches prediction commit 0aa0309"
+    },
+    {
+      "requirement": "Task03/outputs/predicted_output.txt immutable",
+      "status": "PASS",
+      "evidence": "Matches prediction commit 0aa0309"
+    },
+    {
+      "requirement": "Task03/predict_output.cpp immutable",
+      "status": "PASS",
+      "evidence": "Matches prediction commit 0aa0309"
+    },
+    {
+      "requirement": "Q3 supplied prediction source",
+      "status": "PASS",
+      "evidence": "Exact extracted source retained"
+    },
+    {
+      "requirement": "Q3 prediction chronology",
+      "status": "PASS",
+      "evidence": "Prediction commit precedes execution"
+    },
+    {
+      "requirement": "Q3 exact output",
+      "status": "PASS",
+      "evidence": "Every character compared with only platform newline decoding"
+    },
+    {
+      "requirement": "Task05/prediction_before_execution.md immutable",
+      "status": "PASS",
+      "evidence": "Matches prediction commit a7c3793"
+    },
+    {
+      "requirement": "Task05/outputs/predicted_output.txt immutable",
+      "status": "PASS",
+      "evidence": "Matches prediction commit a7c3793"
+    },
+    {
+      "requirement": "Task05/predict_output.cpp immutable",
+      "status": "PASS",
+      "evidence": "Matches prediction commit a7c3793"
+    },
+    {
+      "requirement": "Q5 supplied prediction source",
+      "status": "PASS",
+      "evidence": "Exact extracted source retained"
+    },
+    {
+      "requirement": "Q5 prediction chronology",
+      "status": "PASS",
+      "evidence": "Prediction commit precedes execution"
+    },
+    {
+      "requirement": "Q5 exact output",
+      "status": "PASS",
+      "evidence": "Every character compared with only platform newline decoding"
+    },
+    {
+      "requirement": "Q2 removed-copy experiment",
+      "status": "PASS",
+      "evidence": "Only the completed copy constructor is removed"
+    },
+    {
+      "requirement": "Q2 TODO-only preservation",
+      "status": "PASS",
+      "evidence": "All text outside replaced TODO regions matches supplied program"
+    },
+    {
+      "requirement": "Q4 TODO-only preservation",
+      "status": "PASS",
+      "evidence": "All text outside replaced TODO regions matches supplied program"
+    },
+    {
+      "requirement": "Task01/online.cpp online source hash",
+      "status": "PASS",
+      "evidence": "Exact locally compiled source was pasted"
+    },
+    {
+      "requirement": "Task01/online.cpp online actual output",
+      "status": "PASS",
+      "evidence": "Actual result-pane stdout matches local output prefix"
+    },
+    {
+      "requirement": "Task01/online.cpp genuine screenshot",
+      "status": "PASS",
+      "evidence": "Browser capture saved after completed Run"
+    },
+    {
+      "requirement": "Task02/complete_code.cpp online source hash",
+      "status": "PASS",
+      "evidence": "Exact locally compiled source was pasted"
+    },
+    {
+      "requirement": "Task02/complete_code.cpp online actual output",
+      "status": "PASS",
+      "evidence": "Actual result-pane stdout matches local output prefix"
+    },
+    {
+      "requirement": "Task02/complete_code.cpp genuine screenshot",
+      "status": "PASS",
+      "evidence": "Browser capture saved after completed Run"
+    },
+    {
+      "requirement": "Task02/online_deep_copy.cpp online source hash",
+      "status": "PASS",
+      "evidence": "Exact locally compiled source was pasted"
+    },
+    {
+      "requirement": "Task02/online_deep_copy.cpp online actual output",
+      "status": "PASS",
+      "evidence": "Actual result-pane stdout matches local output prefix"
+    },
+    {
+      "requirement": "Task02/online_deep_copy.cpp genuine screenshot",
+      "status": "PASS",
+      "evidence": "Browser capture saved after completed Run"
+    },
+    {
+      "requirement": "Task02/online.cpp online source hash",
+      "status": "PASS",
+      "evidence": "Exact locally compiled source was pasted"
+    },
+    {
+      "requirement": "Task02/online.cpp online actual output",
+      "status": "PASS",
+      "evidence": "Actual result-pane stdout matches local output prefix"
+    },
+    {
+      "requirement": "Task02/online.cpp genuine screenshot",
+      "status": "PASS",
+      "evidence": "Browser capture saved after completed Run"
+    },
+    {
+      "requirement": "Task03/online.cpp online source hash",
+      "status": "PASS",
+      "evidence": "Exact locally compiled source was pasted"
+    },
+    {
+      "requirement": "Task03/online.cpp online actual output",
+      "status": "PASS",
+      "evidence": "Actual result-pane stdout matches local output prefix"
+    },
+    {
+      "requirement": "Task03/online.cpp genuine screenshot",
+      "status": "PASS",
+      "evidence": "Browser capture saved after completed Run"
+    },
+    {
+      "requirement": "Task03/online_proper_delete.cpp online source hash",
+      "status": "PASS",
+      "evidence": "Exact locally compiled source was pasted"
+    },
+    {
+      "requirement": "Task03/online_proper_delete.cpp online actual output",
+      "status": "PASS",
+      "evidence": "Actual result-pane stdout matches local output prefix"
+    },
+    {
+      "requirement": "Task03/online_proper_delete.cpp genuine screenshot",
+      "status": "PASS",
+      "evidence": "Browser capture saved after completed Run"
+    },
+    {
+      "requirement": "Task03/predict_output.cpp online source hash",
+      "status": "PASS",
+      "evidence": "Exact locally compiled source was pasted"
+    },
+    {
+      "requirement": "Task03/predict_output.cpp online actual output",
+      "status": "PASS",
+      "evidence": "Actual result-pane stdout matches local output prefix"
+    },
+    {
+      "requirement": "Task03/predict_output.cpp genuine screenshot",
+      "status": "PASS",
+      "evidence": "Browser capture saved after completed Run"
+    },
+    {
+      "requirement": "Task04/complete_code.cpp online source hash",
+      "status": "PASS",
+      "evidence": "Exact locally compiled source was pasted"
+    },
+    {
+      "requirement": "Task04/complete_code.cpp online actual output",
+      "status": "PASS",
+      "evidence": "Actual result-pane stdout matches local output prefix"
+    },
+    {
+      "requirement": "Task04/complete_code.cpp genuine screenshot",
+      "status": "PASS",
+      "evidence": "Browser capture saved after completed Run"
+    },
+    {
+      "requirement": "Task04/online.cpp online source hash",
+      "status": "PASS",
+      "evidence": "Exact locally compiled source was pasted"
+    },
+    {
+      "requirement": "Task04/online.cpp online actual output",
+      "status": "PASS",
+      "evidence": "Actual result-pane stdout matches local output prefix"
+    },
+    {
+      "requirement": "Task04/online.cpp genuine screenshot",
+      "status": "PASS",
+      "evidence": "Browser capture saved after completed Run"
+    },
+    {
+      "requirement": "Task05/online.cpp online source hash",
+      "status": "PASS",
+      "evidence": "Exact locally compiled source was pasted"
+    },
+    {
+      "requirement": "Task05/online.cpp online actual output",
+      "status": "PASS",
+      "evidence": "Actual result-pane stdout matches local output prefix"
+    },
+    {
+      "requirement": "Task05/online.cpp genuine screenshot",
+      "status": "PASS",
+      "evidence": "Browser capture saved after completed Run"
+    },
+    {
+      "requirement": "Task05/predict_output.cpp online source hash",
+      "status": "PASS",
+      "evidence": "Exact locally compiled source was pasted"
+    },
+    {
+      "requirement": "Task05/predict_output.cpp online actual output",
+      "status": "PASS",
+      "evidence": "Actual result-pane stdout matches local output prefix"
+    },
+    {
+      "requirement": "Task05/predict_output.cpp genuine screenshot",
+      "status": "PASS",
+      "evidence": "Browser capture saved after completed Run"
+    },
+    {
+      "requirement": "Task06/online_copy_experiment.cpp online source hash",
+      "status": "PASS",
+      "evidence": "Exact locally compiled source was pasted"
+    },
+    {
+      "requirement": "Task06/online_copy_experiment.cpp online actual output",
+      "status": "PASS",
+      "evidence": "Actual result-pane stdout matches local output prefix"
+    },
+    {
+      "requirement": "Task06/online_copy_experiment.cpp genuine screenshot",
+      "status": "PASS",
+      "evidence": "Browser capture saved after completed Run"
+    },
+    {
+      "requirement": "Task06/online.cpp online source hash",
+      "status": "PASS",
+      "evidence": "Exact locally compiled source was pasted"
+    },
+    {
+      "requirement": "Task06/online.cpp online actual output",
+      "status": "PASS",
+      "evidence": "Actual result-pane stdout matches local output prefix"
+    },
+    {
+      "requirement": "Task06/online.cpp genuine screenshot",
+      "status": "PASS",
+      "evidence": "Browser capture saved after completed Run"
+    },
+    {
+      "requirement": "Task07/online.cpp online source hash",
+      "status": "PASS",
+      "evidence": "Exact locally compiled source was pasted"
+    },
+    {
+      "requirement": "Task07/online.cpp online actual output",
+      "status": "PASS",
+      "evidence": "Actual result-pane stdout matches local output prefix"
+    },
+    {
+      "requirement": "Task07/online.cpp genuine screenshot",
+      "status": "PASS",
+      "evidence": "Browser capture saved after completed Run"
+    },
+    {
+      "requirement": "Task07/online_verification.cpp online source hash",
+      "status": "PASS",
+      "evidence": "Exact locally compiled source was pasted"
+    },
+    {
+      "requirement": "Task07/online_verification.cpp online actual output",
+      "status": "PASS",
+      "evidence": "Actual result-pane stdout matches local output prefix"
+    },
+    {
+      "requirement": "Task07/online_verification.cpp genuine screenshot",
+      "status": "PASS",
+      "evidence": "Browser capture saved after completed Run"
+    },
+    {
+      "requirement": "Task02/main.cpp sanitizer source hash",
+      "status": "PASS",
+      "evidence": "Current source matches actual Linux sanitizer source"
+    },
+    {
+      "requirement": "Task02/main.cpp sanitizer expectation",
+      "status": "PASS",
+      "evidence": "Saved actual exit=0; https://github.com/hosheapaul2006/DSA0110_SLOT-B-192471019-Assignment-3/actions/runs/42848528926"
+    },
+    {
+      "requirement": "Task02/main.cpp clean sanitizer run",
+      "status": "PASS",
+      "evidence": "Exit0 and empty sanitizer stderr"
+    },
+    {
+      "requirement": "Task02/deep_copy.cpp sanitizer source hash",
+      "status": "PASS",
+      "evidence": "Current source matches actual Linux sanitizer source"
+    },
+    {
+      "requirement": "Task02/deep_copy.cpp sanitizer expectation",
+      "status": "PASS",
+      "evidence": "Saved actual exit=0; https://github.com/hosheapaul2006/DSA0110_SLOT-B-192471019-Assignment-3/actions/runs/42848528926"
+    },
+    {
+      "requirement": "Task02/deep_copy.cpp clean sanitizer run",
+      "status": "PASS",
+      "evidence": "Exit0 and empty sanitizer stderr"
+    },
+    {
+      "requirement": "Task02/complete_code.cpp sanitizer source hash",
+      "status": "PASS",
+      "evidence": "Current source matches actual Linux sanitizer source"
+    },
+    {
+      "requirement": "Task02/complete_code.cpp sanitizer expectation",
+      "status": "PASS",
+      "evidence": "Saved actual exit=0; https://github.com/hosheapaul2006/DSA0110_SLOT-B-192471019-Assignment-3/actions/runs/42848528926"
+    },
+    {
+      "requirement": "Task02/complete_code.cpp clean sanitizer run",
+      "status": "PASS",
+      "evidence": "Exit0 and empty sanitizer stderr"
+    },
+    {
+      "requirement": "Task02/shallow_copy.cpp sanitizer source hash",
+      "status": "PASS",
+      "evidence": "Current source matches actual Linux sanitizer source"
+    },
+    {
+      "requirement": "Task02/shallow_copy.cpp sanitizer expectation",
+      "status": "PASS",
+      "evidence": "Saved actual exit=1; https://github.com/hosheapaul2006/DSA0110_SLOT-B-192471019-Assignment-3/actions/runs/42848528926"
+    },
+    {
+      "requirement": "Task02/shallow_copy.cpp real expected diagnostic",
+      "status": "PASS",
+      "evidence": "Nonzero exit with expected real sanitizer report"
+    },
+    {
+      "requirement": "Task02/without_copy_constructor.cpp sanitizer source hash",
+      "status": "PASS",
+      "evidence": "Current source matches actual Linux sanitizer source"
+    },
+    {
+      "requirement": "Task02/without_copy_constructor.cpp sanitizer expectation",
+      "status": "PASS",
+      "evidence": "Saved actual exit=1; https://github.com/hosheapaul2006/DSA0110_SLOT-B-192471019-Assignment-3/actions/runs/42848528926"
+    },
+    {
+      "requirement": "Task02/without_copy_constructor.cpp real expected diagnostic",
+      "status": "PASS",
+      "evidence": "Nonzero exit with expected real sanitizer report"
+    },
+    {
+      "requirement": "Task03/main.cpp sanitizer source hash",
+      "status": "PASS",
+      "evidence": "Current source matches actual Linux sanitizer source"
+    },
+    {
+      "requirement": "Task03/main.cpp sanitizer expectation",
+      "status": "PASS",
+      "evidence": "Saved actual exit=0; https://github.com/hosheapaul2006/DSA0110_SLOT-B-192471019-Assignment-3/actions/runs/42848528926"
+    },
+    {
+      "requirement": "Task03/main.cpp clean sanitizer run",
+      "status": "PASS",
+      "evidence": "Exit0 and empty sanitizer stderr"
+    },
+    {
+      "requirement": "Task03/destructor_experiments/proper_delete.cpp sanitizer source hash",
+      "status": "PASS",
+      "evidence": "Current source matches actual Linux sanitizer source"
+    },
+    {
+      "requirement": "Task03/destructor_experiments/proper_delete.cpp sanitizer expectation",
+      "status": "PASS",
+      "evidence": "Saved actual exit=0; https://github.com/hosheapaul2006/DSA0110_SLOT-B-192471019-Assignment-3/actions/runs/42848528926"
+    },
+    {
+      "requirement": "Task03/destructor_experiments/proper_delete.cpp clean sanitizer run",
+      "status": "PASS",
+      "evidence": "Exit0 and empty sanitizer stderr"
+    },
+    {
+      "requirement": "Task03/destructor_experiments/missing_delete.cpp sanitizer source hash",
+      "status": "PASS",
+      "evidence": "Current source matches actual Linux sanitizer source"
+    },
+    {
+      "requirement": "Task03/destructor_experiments/missing_delete.cpp sanitizer expectation",
+      "status": "PASS",
+      "evidence": "Saved actual exit=1; https://github.com/hosheapaul2006/DSA0110_SLOT-B-192471019-Assignment-3/actions/runs/42848528926"
+    },
+    {
+      "requirement": "Task03/destructor_experiments/missing_delete.cpp real expected diagnostic",
+      "status": "PASS",
+      "evidence": "Nonzero exit with expected real sanitizer report"
+    },
+    {
+      "requirement": "Task03/destructor_experiments/mismatched_delete.cpp sanitizer source hash",
+      "status": "PASS",
+      "evidence": "Current source matches actual Linux sanitizer source"
+    },
+    {
+      "requirement": "Task03/destructor_experiments/mismatched_delete.cpp sanitizer expectation",
+      "status": "PASS",
+      "evidence": "Saved actual exit=1; https://github.com/hosheapaul2006/DSA0110_SLOT-B-192471019-Assignment-3/actions/runs/42848528926"
+    },
+    {
+      "requirement": "Task03/destructor_experiments/mismatched_delete.cpp real expected diagnostic",
+      "status": "PASS",
+      "evidence": "Nonzero exit with expected real sanitizer report"
+    },
+    {
+      "requirement": "Task06/main.cpp sanitizer source hash",
+      "status": "PASS",
+      "evidence": "Current source matches actual Linux sanitizer source"
+    },
+    {
+      "requirement": "Task06/main.cpp sanitizer expectation",
+      "status": "PASS",
+      "evidence": "Saved actual exit=0; https://github.com/hosheapaul2006/DSA0110_SLOT-B-192471019-Assignment-3/actions/runs/42848528926"
+    },
+    {
+      "requirement": "Task06/main.cpp clean sanitizer run",
+      "status": "PASS",
+      "evidence": "Exit0 and empty sanitizer stderr"
+    },
+    {
+      "requirement": "Task06/copy_experiment.cpp sanitizer source hash",
+      "status": "PASS",
+      "evidence": "Current source matches actual Linux sanitizer source"
+    },
+    {
+      "requirement": "Task06/copy_experiment.cpp sanitizer expectation",
+      "status": "PASS",
+      "evidence": "Saved actual exit=0; https://github.com/hosheapaul2006/DSA0110_SLOT-B-192471019-Assignment-3/actions/runs/42848528926"
+    },
+    {
+      "requirement": "Task06/copy_experiment.cpp clean sanitizer run",
+      "status": "PASS",
+      "evidence": "Exit0 and empty sanitizer stderr"
+    },
+    {
+      "requirement": "Q1 explanation/test table",
+      "status": "PASS",
+      "evidence": "Source-linked documentation exists"
+    },
+    {
+      "requirement": "Q2 explanation/test table",
+      "status": "PASS",
+      "evidence": "Source-linked documentation exists"
+    },
+    {
+      "requirement": "Q3 explanation/test table",
+      "status": "PASS",
+      "evidence": "Source-linked documentation exists"
+    },
+    {
+      "requirement": "Q4 explanation/test table",
+      "status": "PASS",
+      "evidence": "Source-linked documentation exists"
+    },
+    {
+      "requirement": "Q5 explanation/test table",
+      "status": "PASS",
+      "evidence": "Source-linked documentation exists"
+    },
+    {
+      "requirement": "Q6 explanation/test table",
+      "status": "PASS",
+      "evidence": "Source-linked documentation exists"
+    },
+    {
+      "requirement": "Q7 explanation/test table",
+      "status": "PASS",
+      "evidence": "Source-linked documentation exists"
+    },
+    {
+      "requirement": "no tracked build products",
+      "status": "PASS",
+      "evidence": "git tracked-file audit"
+    }
+  ]
+}

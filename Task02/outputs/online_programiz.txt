@@ -1,0 +1,4 @@
+Ibuprofen ORS | Paracetamol Cetirizine | Paracetamol ORS
+Copy constructor: 2 medicines
+Pass-by-value copies=1; const-reference copies=0
+

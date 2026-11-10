@@ -14,7 +14,7 @@
 | 10 | Deep-copy resized assignment and returned reference | Three independent values; assignment returns self | deep_copy.cpp checked | PASS |
 | 11 | Supplied TODO | Exact expected line | Character comparison matched | PASS |
 | 12 | Copy sizes10,1000,100000, five trials at both flags | Every copied length checksum agrees |30 actual trial checks passed | PASS |
-| 13 | Correct raw owners under ASan/LSan | Exit0,no sanitizer findings | Remote experiment not yet collected | PENDING |
-| 14 | Shallow copy and removed-copy-constructor experiment | Real ASan use-after-free/double-delete diagnostic | Compiled only locally; remote run pending | PENDING |
+| 13 | Correct raw owners under ASan/LSan | Exit0,no sanitizer findings | Seven relevant correct owners collectively exited0 without sanitizer stderr; see per-source logs | PASS |
+| 14 | Shallow copy and removed-copy-constructor experiment | Real ASan use-after-free/double-delete diagnostic | Both negative variants produced actual heap-use-after-free reports | PASS |
 
-Local outputs include actual stdout/stderr, source hashes, flags and exit codes. Sanitizer status must be updated only after real Ubuntu execution.
+Local outputs include actual stdout/stderr, source hashes, flags and exit codes. Sanitizer results are actual remote Ubuntu execution; the successful run URL and source hashes are retained.

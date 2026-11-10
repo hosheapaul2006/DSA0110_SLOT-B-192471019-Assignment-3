@@ -1,0 +1,3 @@
+CHECK|construction and resized assignment own separate values|PASS
+CHECK|assignment returns self reference and protects self-assignment|PASS
+TEST_COUNT 2

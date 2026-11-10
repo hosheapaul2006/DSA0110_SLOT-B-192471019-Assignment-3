@@ -1,0 +1,31 @@
+{
+  "source": "Task02/online.cpp",
+  "sha256": "f21f5204fcf10f9d5f5437d12eecfce0f0b0a5187364087d172ab428b761d74f",
+  "timestamp_utc": "2026-11-10T15:53:33.500467+00:00",
+  "optimization": "-O0",
+  "compile_command": [
+    "C:\\Projects\\SLOT B\\.tools\\mingw64\\bin\\g++.exe",
+    "-std=c++17",
+    "-Wall",
+    "-Wextra",
+    "-Wpedantic",
+    "-O0",
+    "C:\\Projects\\SLOT B\\DSA0110_SLOT-B-192471019-Assignment-3\\Task02\\online.cpp",
+    "-o",
+    "C:\\Projects\\SLOT B\\DSA0110_SLOT-B-192471019-Assignment-3\\build\\Task02\\online.exe"
+  ],
+  "compile_exit": 0,
+  "expected_diagnostic": null,
+  "compile_only": false,
+  "test_count": 9,
+  "tag": null,
+  "headers_sha256": {
+    "Task02/prescription.hpp": "665d7ed851d3af96e3d33044c2ec04b55f17d9dc013e44d8ae7b6cb622e1061d"
+  },
+  "run_command": [
+    "C:\\Projects\\SLOT B\\DSA0110_SLOT-B-192471019-Assignment-3\\build\\Task02\\online.exe",
+    "--tests"
+  ],
+  "run_exit": 0,
+  "status": "PASS"
+}

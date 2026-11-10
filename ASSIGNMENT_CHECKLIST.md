@@ -1,42 +1,123 @@
 # Assignment 3 requirement audit
 
-D Hoshea Paul | 192471019 | DSA0110 | Slot B | CO3
+D Hoshea Paul |192471019 |DSA0110 |Slot B |CO3
 
-Source: Reference/Assignment 3.pdf, all 15 pages. The submission date is blank and no submission date is inferred. PASS requires actual evidence; PENDING means work or verification remains. The existing repository name is intentionally preserved.
+Derived from all15 pages of Reference/Assignment 3.pdf and the preparation brief. PASS denotes verified implementation/observation, including expected negative diagnostics; it does not mean an unsafe example is correct.
 
-| Requirement | Status | Evidence / next action |
-|---|---|---|
-| Q1 constructors, delegation, initializer lists, invariants and three object states | PENDING | Task01 source/local checks present; documentation and online evidence follow |
-| Q1 missing default, reorder warning, invalid copies and explicit-conversion experiments | PENDING | Genuine diagnostics captured; audit completion follows documentation |
-| Q1 default-argument alternative and fixed-size complexity | PENDING | explanation.md |
-| Q2 shallow/deep ownership, Rule of Three, independent copies and self-assignment | PENDING | Implement/test |
-| Q2 supplied TODO1-3, exact expected output, removed-copy-constructor experiment | PENDING | Preserve supplied source; run ASan |
-| Q2 copy counts/value vs const reference, 10/1000/100000 timings, memory diagrams | PENDING | Experiments and analysis |
-| Q2 vector Rule-of-Zero alternative and copy complexity | PENDING | Alternative and evaluation |
-| Q3 dynamic 2D map, booking/cancellation/statistics, safe destruction and ownership | PENDING | Implement/test |
-| Q3 stack/block/heap lifetime messages, missing delete, correct release and mismatched delete | PENDING | Real sanitizer evidence |
-| Q3 10x20,100x200,1000x2000 memory measurements and zero rows | PENDING | Payload, row pointers and process measurements distinguished |
-| Q3 exact Logger prediction committed before execution | PENDING | Must preserve source and whitespace |
-| Q3 memory diagram, RAII, delete/delete[], contiguous/vector alternatives | PENDING | Explanation and diagrams |
-| Q4 integer Money +,-,+=,==,<,<<,>> and bill calculation | PENDING | Implement/test |
-| Q4 supplied TODOs, exact output, carry/negative/stream tests | PENDING | Preserve source; compare actual |
-| Q4 1000000 additions integer/double, operator choices and alternative interfaces | PENDING | Real results/analysis |
-| Q5 Time prefix/postfix, comparisons, rollover and playback | PENDING | Implement/test |
-| Q5 const/nonconst Playlist[], range policy, negative/size/empty tests | PENDING | Implement/test |
-| Q5 Counter prediction committed before execution | PENDING | Must preserve exact source/output |
-| Q5 10000000 increments and checked/at/unchecked accesses at-O0/-O2 | PENDING | Real fair benchmarks and analysis |
-| Q6 owning Text Rule of Three, operators, empty/long/copy/self-assignment/chains | PENDING | Implement/test/ASan |
-| Q6 real copy counts/elision and 100000 equivalent concatenation measurements | PENDING | Actual evidence |
-| Q6 operator rules, string/+= alternative, character-copy/temporary analysis | PENDING | Explanation and evaluation |
-| Q7 stage1 measurable requirements and constructor identification | PENDING | Design |
-| Q7 stage2 custom Complex formulas/operators/class design/equality policy | PENDING | Design |
-| Q7 stage3 R/L/C,series/parallel,hand calculations,zero division and boundary tests | PENDING | Implement and independently verify |
-| Q7 stage4 std::complex comparison, accuracy, limitations and defence | PENDING | Evaluation |
-| Every valid program compiled/run with expected/actual test evidence | PENDING | Local GCC14.2; compiler flags and source hashes recorded |
-| Genuine sanitizer logs for correct and isolated unsafe programs | PENDING | Ubuntu GitHub Actions approved; no local sanitizer runtime available |
-| Genuine Programiz runs/screenshots | PENDING | Suitable normal/TODO/prediction programs, clean console output |
-| Progressive commits and working pushed repository | PENDING | Existing empty Assignment3 repository cloned |
-| README, Markdown/PDF report, viva with two modifications per question | PENDING | Documentation and render verification |
-| Naming discrepancy | PENDING | PDF expects DSA01-192471019-Assignment3; faculty acceptance of existing name required |
-| Student individually executes tasks and can defend them | PENDING | Automated/browser evidence does not certify personal execution |
-| Classroom materials and final submission | PENDING | User submits personally; prepare report/link |
+| ID | Requirement | Status | Evidence |
+|---|---|---|---|
+| Q1.01 | Default, full and title-only overloaded constructors | PASS | [Task01/book.hpp](Task01/book.hpp); [Task01/outputs/main_actual.txt](Task01/outputs/main_actual.txt) |
+| Q1.02 | Member initializer lists in every constructor | PASS | [Task01/book.hpp](Task01/book.hpp) |
+| Q1.03 | Delegation and single validation path | PASS | [Task01/book.hpp](Task01/book.hpp); [Task01/explanation.md](Task01/explanation.md) |
+| Q1.04 | Negative and overlong invalid records rejected | PASS | [Task01/outputs/main_stderr.txt](Task01/outputs/main_stderr.txt) |
+| Q1.05 | Print every constructor and draw three object states | PASS | [Task01/outputs/main_actual.txt](Task01/outputs/main_actual.txt); [Task01/explanation.md](Task01/explanation.md) |
+| Q1.06 | Compiler-generated default constructor analysis | PASS | [Task01/explanation.md](Task01/explanation.md) |
+| Q1.07 | Missing default constructor array compiler error | PASS | [Task01/outputs/constructor_experiments_missing_default_compiler.txt](Task01/outputs/constructor_experiments_missing_default_compiler.txt) |
+| Q1.08 | Declaration order versus initializer order and real Wreorder | PASS | [Task01/outputs/constructor_experiments_reorder_compiler.txt](Task01/outputs/constructor_experiments_reorder_compiler.txt) |
+| Q1.09 | Implicit conversion succeeds; explicit conversion fails | PASS | [Task01/outputs/constructor_experiments_implicit_actual.txt](Task01/outputs/constructor_experiments_implicit_actual.txt); [Task01/outputs/constructor_experiments_explicit_rejected_compiler.txt](Task01/outputs/constructor_experiments_explicit_rejected_compiler.txt) |
+| Q1.10 | Default-argument alternative, validation reuse and fixed-size complexity | PASS | [Task01/explanation.md](Task01/explanation.md) |
+| Q2.01 | Raw owning medicine array, constructor and destructor | PASS | [Task02/prescription.hpp](Task02/prescription.hpp) |
+| Q2.02 | Unsafe compiler-generated shallow copy and actual sanitizer report | PASS | [Task02/shallow_copy.cpp](Task02/shallow_copy.cpp); [Task02/outputs/sanitizer_shallow_copy_stderr.txt](Task02/outputs/sanitizer_shallow_copy_stderr.txt) |
+| Q2.03 | Deep-copy constructor and independent mutation | PASS | [Task02/prescription.hpp](Task02/prescription.hpp); [Task02/outputs/main_stderr.txt](Task02/outputs/main_stderr.txt) |
+| Q2.04 | Copy assignment, resizing and self-assignment protection | PASS | [Task02/deep_copy.cpp](Task02/deep_copy.cpp); [Task02/outputs/deep_copy_stderr.txt](Task02/outputs/deep_copy_stderr.txt) |
+| Q2.05 | Exception-safe ownership and Rule of Three analysis | PASS | [Task02/prescription.hpp](Task02/prescription.hpp); [Task02/explanation.md](Task02/explanation.md) |
+| Q2.06 | Shallow and deep memory diagrams | PASS | [Task02/explanation.md](Task02/explanation.md) |
+| Q2.07 | Three copy-construction contexts and elision caveat | PASS | [Task02/explanation.md](Task02/explanation.md) |
+| Q2.08 | By-value versus const-reference actual copy counts/messages | PASS | [Task02/outputs/main_actual.txt](Task02/outputs/main_actual.txt) |
+| Q2.09 | Copy sizes 10,1000,100000 with actual timings | PASS | [Task02/benchmark.cpp](Task02/benchmark.cpp); [Task02/benchmark_results.md](Task02/benchmark_results.md) |
+| Q2.10 | Correct and unsafe implementations run under ASan/LSan | PASS | [Reference/sanitizer_summary.json](Reference/sanitizer_summary.json) |
+| Q2.11 | Supplied TODO1 copy constructor | PASS | [Task02/complete_code.cpp](Task02/complete_code.cpp); [Reference/Q2_TODO_original.txt](Reference/Q2_TODO_original.txt) |
+| Q2.12 | Supplied TODO2 copy assignment and TODO3 release | PASS | [Task02/complete_code.cpp](Task02/complete_code.cpp); [Reference/final_audit.json](Reference/final_audit.json) |
+| Q2.13 | Exact required Prescription output | PASS | [Task02/outputs/complete_code_actual.txt](Task02/outputs/complete_code_actual.txt); [Task02/outputs/complete_code_verification.json](Task02/outputs/complete_code_verification.json) |
+| Q2.14 | Remove only copy constructor and capture actual sanitizer error | PASS | [Task02/without_copy_constructor.cpp](Task02/without_copy_constructor.cpp); [Task02/outputs/sanitizer_without_copy_constructor_stderr.txt](Task02/outputs/sanitizer_without_copy_constructor_stderr.txt) |
+| Q2.15 | Vector Rule-of-Zero alternative, ownership and complexity comparison | PASS | [Task02/main.cpp](Task02/main.cpp); [Task02/explanation.md](Task02/explanation.md) |
+| Q3.01 | Dynamic two-dimensional map allocated with new | PASS | [Task03/auditorium.hpp](Task03/auditorium.hpp) |
+| Q3.02 | Destructor releases every allocation and prints closing summary | PASS | [Task03/outputs/main_actual.txt](Task03/outputs/main_actual.txt); [Task03/auditorium.hpp](Task03/auditorium.hpp) |
+| Q3.03 | Stack, nested block and heap new/delete lifetime demonstrations | PASS | [Task03/main.cpp](Task03/main.cpp); [Task03/outputs/main_actual.txt](Task03/outputs/main_actual.txt) |
+| Q3.04 | Book/cancel seats, duplicate actions and successful statistics | PASS | [Task03/outputs/main_stderr.txt](Task03/outputs/main_stderr.txt) |
+| Q3.05 | Prevent accidental owning copies and handle constructor failure | PASS | [Task03/auditorium.hpp](Task03/auditorium.hpp); [Task03/explanation.md](Task03/explanation.md) |
+| Q3.06 | Missing delete genuine leak experiment and original no-report history | PASS | [Task03/outputs/sanitizer_destructor_experiments_missing_delete_stderr.txt](Task03/outputs/sanitizer_destructor_experiments_missing_delete_stderr.txt); [Reference/sanitizer_experiment_notes.md](Reference/sanitizer_experiment_notes.md) |
+| Q3.07 | Proper delete clean sanitizer execution | PASS | [Task03/outputs/sanitizer_destructor_experiments_proper_delete_verification.json](Task03/outputs/sanitizer_destructor_experiments_proper_delete_verification.json) |
+| Q3.08 | delete versus delete[], actual mismatch warning/report | PASS | [Task03/outputs/destructor_experiments_mismatched_delete_compiler.txt](Task03/outputs/destructor_experiments_mismatched_delete_compiler.txt); [Task03/outputs/sanitizer_destructor_experiments_mismatched_delete_stderr.txt](Task03/outputs/sanitizer_destructor_experiments_mismatched_delete_stderr.txt) |
+| Q3.09 | Destructor signature, order and RAII explanation | PASS | [Task03/explanation.md](Task03/explanation.md) |
+| Q3.10 | Seat-map memory diagram | PASS | [Task03/explanation.md](Task03/explanation.md) |
+| Q3.11 | Actual 10x20,100x200,1000x2000 allocations and process memory | PASS | [Task03/memory.cpp](Task03/memory.cpp); [Task03/outputs/memory_actual.txt](Task03/outputs/memory_actual.txt) |
+| Q3.12 | Zero rows and invalid seat/dimension handling | PASS | [Task03/outputs/main_stderr.txt](Task03/outputs/main_stderr.txt) |
+| Q3.13 | Exact Logger prediction saved/committed before execution | PASS | [Task03/prediction_before_execution.md](Task03/prediction_before_execution.md); [Task03/outputs/predict_output_verification.json](Task03/outputs/predict_output_verification.json) |
+| Q3.14 | Logger constructor/copy/destructor output comparison and explanation | PASS | [Task03/outputs/predict_output_actual.txt](Task03/outputs/predict_output_actual.txt); [Task03/explanation.md](Task03/explanation.md) |
+| Q3.15 | Contiguous block/vector rows alternatives, access/allocation/space analysis | PASS | [Task03/explanation.md](Task03/explanation.md) |
+| Q4.01 | Money owns signed long long paise | PASS | [Task04/money.hpp](Task04/money.hpp) |
+| Q4.02 | Arithmetic +,-,+= and comparisons ==,< | PASS | [Task04/money.hpp](Task04/money.hpp); [Task04/outputs/main_stderr.txt](Task04/outputs/main_stderr.txt) |
+| Q4.03 | Stream << and >>, rupee/two-digit paise formatting | PASS | [Task04/money.hpp](Task04/money.hpp); [Task04/outputs/main_actual.txt](Task04/outputs/main_actual.txt) |
+| Q4.04 | Operator-based bill and named-function readability comparison | PASS | [Task04/main.cpp](Task04/main.cpp); [Task04/explanation.md](Task04/explanation.md) |
+| Q4.05 | Value versus reference returns, member/friend and stream justification | PASS | [Task04/explanation.md](Task04/explanation.md) |
+| Q4.06 | Operator call translation and symmetric implicit-conversion analysis | PASS | [Task04/explanation.md](Task04/explanation.md) |
+| Q4.07 | 0.75+0.50 carry test | PASS | [Task04/outputs/main_stderr.txt](Task04/outputs/main_stderr.txt) |
+| Q4.08 | Negative subtraction/balance policy and comparisons | PASS | [Task04/outputs/main_actual.txt](Task04/outputs/main_actual.txt) |
+| Q4.09 | Input errors, signed limits and overflow protection | PASS | [Task04/outputs/main_stderr.txt](Task04/outputs/main_stderr.txt) |
+| Q4.10 | One million integer/double additions and actual numerical error | PASS | [Task04/benchmark_results.md](Task04/benchmark_results.md); [Task04/outputs/benchmark_O2_actual.txt](Task04/outputs/benchmark_O2_actual.txt) |
+| Q4.11 | Money-times-Money design decision and representation limits | PASS | [Task04/explanation.md](Task04/explanation.md) |
+| Q4.12 | Supplied TODO1 member+ and TODO2 equality/friend insertion preserved | PASS | [Task04/complete_code.cpp](Task04/complete_code.cpp); [Reference/final_audit.json](Reference/final_audit.json) |
+| Q4.13 | Exact supplied Rs200.00 and true output | PASS | [Task04/outputs/complete_code_actual.txt](Task04/outputs/complete_code_actual.txt) |
+| Q4.14 | Member/friend/named alternatives and O(1) arithmetic analysis | PASS | [Task04/explanation.md](Task04/explanation.md) |
+| Q5.01 | Prefix/postfix Time increments and return semantics | PASS | [Task05/playlist.hpp](Task05/playlist.hpp); [Task05/outputs/main_stderr.txt](Task05/outputs/main_stderr.txt) |
+| Q5.02 | Time equality and ordering comparisons | PASS | [Task05/outputs/main_stderr.txt](Task05/outputs/main_stderr.txt) |
+| Q5.03 | Const and nonconst checked Playlist subscripts | PASS | [Task05/playlist.hpp](Task05/playlist.hpp); [Task05/main.cpp](Task05/main.cpp) |
+| Q5.04 | Short playback simulation | PASS | [Task05/outputs/main_actual.txt](Task05/outputs/main_actual.txt) |
+| Q5.05 | a=t++ and b=++t observed values | PASS | [Task05/outputs/main_actual.txt](Task05/outputs/main_actual.txt) |
+| Q5.06 | Minute and hour rollover including 00:59:59 to01:00:00 | PASS | [Task05/outputs/main_stderr.txt](Task05/outputs/main_stderr.txt) |
+| Q5.07 | Negative,size-equal and empty-playlist indices | PASS | [Task05/outputs/main_stderr.txt](Task05/outputs/main_stderr.txt) |
+| Q5.08 | Dummy int,copy cost and prefix-reference explanation | PASS | [Task05/explanation.md](Task05/explanation.md) |
+| Q5.09 | Ten million prefix/postfix operations at-O0/-O2 | PASS | [Task05/benchmark.cpp](Task05/benchmark.cpp); [Task05/benchmark_results.md](Task05/benchmark_results.md) |
+| Q5.10 | Exact Counter prediction saved/committed before execution | PASS | [Task05/prediction_before_execution.md](Task05/prediction_before_execution.md); [Task05/outputs/predict_output_verification.json](Task05/outputs/predict_output_verification.json) |
+| Q5.11 | Evidence-based ++i recommendation without universal speed claim | PASS | [Task05/explanation.md](Task05/explanation.md) |
+| Q5.12 | Ten million checked/at/unchecked valid accesses and measured overhead | PASS | [Task05/access_benchmark.cpp](Task05/access_benchmark.cpp); [Task05/benchmark_results.md](Task05/benchmark_results.md) |
+| Q5.13 | Throwing caller-reported errors versus PDF printing policy | PASS | [Task05/explanation.md](Task05/explanation.md) |
+| Q5.14 | O(1) access/increment and playlist storage analysis | PASS | [Task05/explanation.md](Task05/explanation.md) |
+| Q6.01 | Owning dynamically allocated null-terminated Text buffer | PASS | [Task06/text.hpp](Task06/text.hpp) |
+| Q6.02 | Constructor,copy constructor,assignment and destructor | PASS | [Task06/text.hpp](Task06/text.hpp) |
+| Q6.03 | Self-assignment and ownership exception safety | PASS | [Task06/outputs/main_stderr.txt](Task06/outputs/main_stderr.txt); [Task06/explanation.md](Task06/explanation.md) |
+| Q6.04 | Concatenation,==,!= and stream insertion | PASS | [Task06/main.cpp](Task06/main.cpp); [Task06/outputs/main_stderr.txt](Task06/outputs/main_stderr.txt) |
+| Q6.05 | Empty,single-character,long and chained messages | PASS | [Task06/outputs/main_stderr.txt](Task06/outputs/main_stderr.txt) |
+| Q6.06 | Actual a+b+c copy/allocation instrumentation | PASS | [Task06/outputs/copy_experiment_actual.txt](Task06/outputs/copy_experiment_actual.txt) |
+| Q6.07 | No-elide comparison and compiler-dependent interpretation | PASS | [Task06/outputs/copy_experiment_no_elide_actual.txt](Task06/outputs/copy_experiment_no_elide_actual.txt); [Task06/explanation.md](Task06/explanation.md) |
+| Q6.08 | Correct Text and copy experiment under ASan/LSan | PASS | [Task06/outputs/sanitizer_main_verification.json](Task06/outputs/sanitizer_main_verification.json); [Task06/outputs/sanitizer_copy_experiment_verification.json](Task06/outputs/sanitizer_copy_experiment_verification.json) |
+| Q6.09 | 100000 equivalent custom/std::string concatenation operations | PASS | [Task06/benchmark.cpp](Task06/benchmark.cpp); [Task06/benchmark_results.md](Task06/benchmark_results.md) |
+| Q6.10 | Actual allocation accounting and benchmark limitations | PASS | [Task06/outputs/benchmark_O2_actual.txt](Task06/outputs/benchmark_O2_actual.txt); [Task06/explanation.md](Task06/explanation.md) |
+| Q6.11 | List unoverloadable operators and explain fixed precedence/arity | PASS | [Task06/explanation.md](Task06/explanation.md) |
+| Q6.12 | User-defined operand,assignment-member and friend rules | PASS | [Task06/explanation.md](Task06/explanation.md) |
+| Q6.13 | std::string Rule-of-Zero alternative and justified custom use | PASS | [Task06/explanation.md](Task06/explanation.md) |
+| Q6.14 | Plus-equals-on-copy alternative and n1,n2,n3 copying/storage analysis | PASS | [Task06/text.hpp](Task06/text.hpp); [Task06/explanation.md](Task06/explanation.md) |
+| Q7.01 | Stage1 required data/operations/three constructors and measurable contract | PASS | [Task07/design_before_implementation.md](Task07/design_before_implementation.md) |
+| Q7.02 | Stage2 custom Complex with +,-,*,/,==,<< | PASS | [Task07/complex.hpp](Task07/complex.hpp) |
+| Q7.03 | Member/friend choices,formulas,class diagram and equality policy | PASS | [Task07/explanation.md](Task07/explanation.md) |
+| Q7.04 | Stage3 physically stated R,L,C and nonzero frequency | PASS | [Task07/outputs/main_actual.txt](Task07/outputs/main_actual.txt) |
+| Q7.05 | Resistor,inductor,capacitor and series RLC calculations | PASS | [Task07/main.cpp](Task07/main.cpp); [Task07/outputs/main_stderr.txt](Task07/outputs/main_stderr.txt) |
+| Q7.06 | Parallel RLC and requested two-branch product-over-sum formula | PASS | [Task07/complex.hpp](Task07/complex.hpp); [Task07/outputs/main_stderr.txt](Task07/outputs/main_stderr.txt) |
+| Q7.07 | Independent hand-derived calculations and actual verification | PASS | [Task07/hand_calculation.cpp](Task07/hand_calculation.cpp); [Task07/outputs/hand_calculation_actual.txt](Task07/outputs/hand_calculation_actual.txt) |
+| Q7.08 | Safe zero division,ideal shorts and singular cases | PASS | [Task07/outputs/main_stderr.txt](Task07/outputs/main_stderr.txt); [Task07/outputs/verification_stderr.txt](Task07/outputs/verification_stderr.txt) |
+| Q7.09 | Real/imaginary/negative/scaled values,tolerances and invalid physical input | PASS | [Task07/verification.cpp](Task07/verification.cpp); [Task07/outputs/verification_stderr.txt](Task07/outputs/verification_stderr.txt) |
+| Q7.10 | Stage4 constructor/operator rationale,safety,accuracy and limitations | PASS | [Task07/explanation.md](Task07/explanation.md) |
+| Q7.11 | Equivalent std::complex calculation and248 arithmetic comparisons | PASS | [Task07/verification.cpp](Task07/verification.cpp); [Task07/outputs/verification_actual.txt](Task07/outputs/verification_actual.txt) |
+| Q7.12 | O(1) operations/two-component storage,division responsibilities and recommendation | PASS | [Task07/explanation.md](Task07/explanation.md) |
+| G.01 | C++17,actual compiler/CPU/platform and exact commands | PASS | [README.md](README.md); [Reference/compiler_version.txt](Reference/compiler_version.txt); [Reference/platform.txt](Reference/platform.txt) |
+| G.02 | All valid sources compiled/run; expected diagnostic cases isolated | PASS | [Reference/final_audit.json](Reference/final_audit.json) |
+| G.03 | Expected/actual/status test tables and meaningful boundaries | PASS | [Task01/test_cases.md](Task01/test_cases.md); [Task02/test_cases.md](Task02/test_cases.md); [Task03/test_cases.md](Task03/test_cases.md); [Task04/test_cases.md](Task04/test_cases.md); [Task05/test_cases.md](Task05/test_cases.md); [Task06/test_cases.md](Task06/test_cases.md); [Task07/test_cases.md](Task07/test_cases.md) |
+| G.04 | Genuine sanitizer compiler/stdout/stderr/exit evidence with Linux label | PASS | [Reference/sanitizer_summary.json](Reference/sanitizer_summary.json); [Reference/sanitizer_environment.txt](Reference/sanitizer_environment.txt) |
+| G.05 | Real comparable benchmark data,flags and repeated trials | PASS | [Reference/benchmark_summary.json](Reference/benchmark_summary.json) |
+| G.06 | Genuine Programiz execution and29 source/output screenshots | PASS | [Reference/final_audit.json](Reference/final_audit.json) |
+| G.07 | Immutable prediction chronology and TODO-only preservation audit | PASS | [Reference/final_audit.json](Reference/final_audit.json) |
+| G.08 | Progressive actual commits,at least one meaningful commit per question | PASS | [README.md](README.md) |
+| G.09 | README and every program's purpose/compile/run instructions | PASS | [README.md](README.md) |
+| G.10 | Viva guide with two modifications per question | PASS | [VIVA_PREPARATION.md](VIVA_PREPARATION.md) |
+| G.11 | No tracked executables,toolchain archives or fabricated evidence | PASS | [.gitignore](.gitignore); [Reference/final_audit.json](Reference/final_audit.json) |
+| G.12 | Submission date left unspecified because PDF field is blank | PASS | [README.md](README.md) |
+| G.13 | Repository link and report cover identify exact existing repository | PASS | [SUBMISSION_PREPARATION.md](SUBMISSION_PREPARATION.md) |
+| G.14 | Classroom report/link materials and manual steps prepared | PASS | [SUBMISSION_PREPARATION.md](SUBMISSION_PREPARATION.md) |
+| G.15 | Complete Markdown/PDF report with readable diagrams/screenshots and layout QA | PENDING | Report generation and rendered-page verification follow |
+| G.16 | All final files pushed,working tree clean and local/remote main equal | PENDING | Final publication/audit follow report QA |
+| S.01 | Faculty acceptance of existing repository-name discrepancy | PENDING | PDF convention DSA01-192471019-Assignment3 differs from preserved existing name |
+| S.02 | Student individually executes every task and can defend/modify it | PENDING | Automated/browser evidence does not certify the personal execution requirement |
+| S.03 | Correct Classroom destination and final submission | PENDING | User submits personally; no submission performed |
+
+The PDF submission-date field is blank. No deadline or submission date has been invented. Normal console demonstrations omit PASS labels; required test tables and execution logs retain statuses. Sanitizer evidence is actual Ubuntu execution, separately labelled from local Windows and Programiz evidence.
