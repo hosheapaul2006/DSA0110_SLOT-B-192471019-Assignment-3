@@ -1,0 +1,16 @@
+trial,design,operations,milliseconds,checksum,custom_allocation_count
+1,custom_direct,100000,5.6018,58000000,200000
+1,std_string,100000,6.0384,58000000,not_instrumented
+1,custom_copy_plus,100000,12.2999,58000000,500000
+2,custom_copy_plus,100000,12.4347,58000000,500000
+2,std_string,100000,6.0978,58000000,not_instrumented
+2,custom_direct,100000,5.5872,58000000,200000
+3,custom_direct,100000,5.5934,58000000,200000
+3,std_string,100000,6.1299,58000000,not_instrumented
+3,custom_copy_plus,100000,12.5962,58000000,500000
+4,custom_copy_plus,100000,12.7052,58000000,500000
+4,std_string,100000,6.1335,58000000,not_instrumented
+4,custom_direct,100000,5.6963,58000000,200000
+5,custom_direct,100000,5.5898,58000000,200000
+5,std_string,100000,6.1252,58000000,not_instrumented
+5,custom_copy_plus,100000,12.6454,58000000,500000

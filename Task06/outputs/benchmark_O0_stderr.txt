@@ -1,0 +1,16 @@
+CHECK|custom direct concatenation output|PASS
+CHECK|std string concatenation output|PASS
+CHECK|copy plus equals concatenation output|PASS
+CHECK|copy plus equals concatenation output|PASS
+CHECK|std string concatenation output|PASS
+CHECK|custom direct concatenation output|PASS
+CHECK|custom direct concatenation output|PASS
+CHECK|std string concatenation output|PASS
+CHECK|copy plus equals concatenation output|PASS
+CHECK|copy plus equals concatenation output|PASS
+CHECK|std string concatenation output|PASS
+CHECK|custom direct concatenation output|PASS
+CHECK|custom direct concatenation output|PASS
+CHECK|std string concatenation output|PASS
+CHECK|copy plus equals concatenation output|PASS
+TEST_COUNT 15

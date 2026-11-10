@@ -1,0 +1,31 @@
+{
+  "source": "Task06/main.cpp",
+  "sha256": "b43aa89491fef4887d3f65286043eaae75174e8acf274bb4e314cc454d9bf04c",
+  "timestamp_utc": "2026-11-10T15:43:38.998927+00:00",
+  "optimization": "-O0",
+  "compile_command": [
+    "C:\\Projects\\SLOT B\\.tools\\mingw64\\bin\\g++.exe",
+    "-std=c++17",
+    "-Wall",
+    "-Wextra",
+    "-Wpedantic",
+    "-O0",
+    "C:\\Projects\\SLOT B\\DSA0110_SLOT-B-192471019-Assignment-3\\Task06\\main.cpp",
+    "-o",
+    "C:\\Projects\\SLOT B\\DSA0110_SLOT-B-192471019-Assignment-3\\build\\Task06\\main.exe"
+  ],
+  "compile_exit": 0,
+  "expected_diagnostic": null,
+  "compile_only": false,
+  "test_count": 12,
+  "tag": null,
+  "headers_sha256": {
+    "Task06/text.hpp": "98746bbcab863a399f9c4c225eb3550ee9985fa0c2a932e3c1162f6b0b83f559"
+  },
+  "run_command": [
+    "C:\\Projects\\SLOT B\\DSA0110_SLOT-B-192471019-Assignment-3\\build\\Task06\\main.exe",
+    "--tests"
+  ],
+  "run_exit": 0,
+  "status": "PASS"
+}

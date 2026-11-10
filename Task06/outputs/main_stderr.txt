@@ -1,0 +1,13 @@
+CHECK|empty text is null terminated and equal|PASS
+CHECK|single character equality and inequality|PASS
+CHECK|chained concatenation value and length|PASS
+CHECK|concatenation does not mutate operands|PASS
+CHECK|deep copy construction and assignment independence|PASS
+CHECK|self-assignment and returned reference|PASS
+CHECK|self-concatenation before old storage release|PASS
+CHECK|long message copy survives source reassignment|PASS
+CHECK|empty operands in both concatenation positions|PASS
+CHECK|stream output|PASS
+CHECK|null character pointer rejected|PASS
+CHECK|copy-plus-equals alternative matches direct concatenation|PASS
+TEST_COUNT 12

@@ -1,0 +1,3 @@
+CHECK|instrumented chained concatenation content|PASS
+CHECK|copy-plus-equals chain content|PASS
+TEST_COUNT 2

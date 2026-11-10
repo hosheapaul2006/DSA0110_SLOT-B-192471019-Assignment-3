@@ -1,0 +1,31 @@
+{
+  "source": "Task06/copy_experiment.cpp",
+  "sha256": "27986052ca197ff361309c3a4c67e840cbb86dece046dbe44e90988bd9008cb8",
+  "timestamp_utc": "2026-11-10T15:43:39.651022+00:00",
+  "optimization": "-O0",
+  "compile_command": [
+    "C:\\Projects\\SLOT B\\.tools\\mingw64\\bin\\g++.exe",
+    "-std=c++17",
+    "-Wall",
+    "-Wextra",
+    "-Wpedantic",
+    "-O0",
+    "C:\\Projects\\SLOT B\\DSA0110_SLOT-B-192471019-Assignment-3\\Task06\\copy_experiment.cpp",
+    "-o",
+    "C:\\Projects\\SLOT B\\DSA0110_SLOT-B-192471019-Assignment-3\\build\\Task06\\copy_experiment.exe"
+  ],
+  "compile_exit": 0,
+  "expected_diagnostic": null,
+  "compile_only": false,
+  "test_count": 2,
+  "tag": null,
+  "headers_sha256": {
+    "Task06/text.hpp": "98746bbcab863a399f9c4c225eb3550ee9985fa0c2a932e3c1162f6b0b83f559"
+  },
+  "run_command": [
+    "C:\\Projects\\SLOT B\\DSA0110_SLOT-B-192471019-Assignment-3\\build\\Task06\\copy_experiment.exe",
+    "--tests"
+  ],
+  "run_exit": 0,
+  "status": "PASS"
+}

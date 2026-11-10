@@ -13,9 +13,10 @@ ROOT=Path(__file__).resolve().parents[1]
 PORTABLE=ROOT.parent/'.tools/mingw64/bin/g++.exe'
 CXX=os.environ.get('CXX',str(PORTABLE) if PORTABLE.exists() else shutil.which('g++') or 'g++')
 
-def verify(task,source,opt='-O0',expected=None,diagnostic=None,needle=None,compile_only=False,tests=False,extra=None):
+def verify(task,source,opt='-O0',expected=None,diagnostic=None,needle=None,compile_only=False,tests=False,extra=None,tag=None):
     path=ROOT/task/source; out=ROOT/task/'outputs';out.mkdir(parents=True,exist_ok=True)
     stem=source.replace('/','_').replace('.cpp','')+('_'+opt[1:] if 'benchmark' in source else '')
+    if tag: stem+='_'+tag
     build=ROOT/'build'/task;build.mkdir(parents=True,exist_ok=True)
     exe=build/(stem+'.exe')
     env=os.environ.copy();env['PATH']=str(Path(CXX).parent)+os.pathsep+env.get('PATH','')
@@ -25,7 +26,7 @@ def verify(task,source,opt='-O0',expected=None,diagnostic=None,needle=None,compi
     record={'source':path.relative_to(ROOT).as_posix(),'sha256':hashlib.sha256(path.read_bytes()).hexdigest(),
             'timestamp_utc':datetime.datetime.now(datetime.timezone.utc).isoformat(),'optimization':opt,
             'compile_command':command,'compile_exit':run.returncode,'expected_diagnostic':diagnostic,
-            'compile_only':compile_only,'test_count':0,
+            'compile_only':compile_only,'test_count':0,'tag':tag,
             'headers_sha256':{p.relative_to(ROOT).as_posix():hashlib.sha256(p.read_bytes()).hexdigest() for p in path.parent.glob('*.hpp')}}
     if diagnostic=='error':
         assert run.returncode!=0 and (not needle or needle.lower() in run.stderr.decode(errors='replace').lower()),run.stderr.decode(errors='replace')
@@ -76,5 +77,5 @@ def flatten(task,source='main.cpp',destination='online.cpp'):
 if __name__=='__main__':
     p=argparse.ArgumentParser();p.add_argument('task');p.add_argument('source');p.add_argument('--opt',default='-O0')
     p.add_argument('--expected');p.add_argument('--diagnostic',choices=['error','warning']);p.add_argument('--needle')
-    p.add_argument('--compile-only',action='store_true');p.add_argument('--tests',action='store_true');p.add_argument('--extra',nargs='*')
-    a=p.parse_args();verify(a.task,a.source,a.opt,a.expected,a.diagnostic,a.needle,a.compile_only,a.tests,a.extra)
+    p.add_argument('--compile-only',action='store_true');p.add_argument('--tests',action='store_true');p.add_argument('--extra',nargs='*');p.add_argument('--tag')
+    a=p.parse_args();verify(a.task,a.source,a.opt,a.expected,a.diagnostic,a.needle,a.compile_only,a.tests,a.extra,a.tag)
